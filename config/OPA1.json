@@ -1,0 +1,27 @@
+{
+  "gene_symbol": "OPA1",
+  "assembly": "hg38",
+  "gtf_url": "https://storage.googleapis.com/alphagenome/reference/gencode/hg38/gencode.v46.annotation.gtf.gz.feather",
+  "fasta_path": "data/GRCh38.primary_assembly.genome.fa",
+  "results_dir": "results",
+  "data_dir": "data",
+  "dna_api_key": "REPLACE_WITH_YOUR_KEY",
+  "track_filter": "polyA plus RNA-seq",
+  "ontology_terms": [
+    "UBERON:0002107",
+    "CL:0000182",
+    "UBERON:0000955",
+    "UBERON:0002037",
+    "UBERON:0000019" 
+  ],
+  "requested_outputs": [
+    "RNA_SEQ",
+    "SPLICE_SITE_USAGE"
+  ],
+  "exon_sequence": "CTTTAGCTTGTTTCTGCGGAGGATTCCGCTCTTTCTCCATCAGTTTCATAGCCCTGGAATTGTAGAAAAGCTCTGGTTTCAAGACCATTGATATCCATTTCTGTCAGG",
+  "flank": 1000,
+  "strand": "+",
+  "_resize_comment": "Optional: manually specify resize_width (16384, 131072, 524288, or 1048576). If omitted, auto-selected based on gene length",
+  "_viz_resize_comment": "Optional: specify viz_resize_width for visualization (default: 32768)",
+  "ASO_length": 18
+}
