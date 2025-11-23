@@ -17,7 +17,7 @@
     "SPLICE_SITE_USAGE"
   ],
   "exon_sequence": "TTTTTGTCAACACTGTGAATTTCATAGAACATCAGTTTATGTCCTGAAATATGTTTTCAGAAAATAGAAAGCCAAGTATATTTC",
-  "flank": 1000,
+  "flank": 250,
   "strand": "+",
   "_resize_comment": "Optional: manually specify resize_width (16384, 131072, 524288, or 1048576). If omitted, auto-selected based on gene length",
   "_viz_resize_comment": "Optional: specify viz_resize_width for visualization (default: 32768)",
