@@ -1,0 +1,668 @@
+name,strand,Assay title,ontology_curie,biosample_name,biosample_type,biosample_life_stage,gtex_tissue,data_source,endedness,genetically_modified,nonzero_mean,_source
+CL:0000047 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0000047,neuronal stem cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.14361684024333954,rna_seq
+CL:0000062 total RNA-seq,+,total RNA-seq,CL:0000062,osteoblast,primary_cell,adult,,encode,paired,False,0.09414368867874146,rna_seq
+CL:0000084 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0000084,T-cell,primary_cell,adult,,encode,paired,False,0.1242961511015892,rna_seq
+CL:0000084 total RNA-seq,+,total RNA-seq,CL:0000084,T-cell,primary_cell,adult,,encode,single,False,0.1009339839220047,rna_seq
+CL:0000115 total RNA-seq,+,total RNA-seq,CL:0000115,endothelial cell,in_vitro_differentiated_cells,adult,,encode,single,False,0.13555292785167694,rna_seq
+CL:0000127 total RNA-seq,+,total RNA-seq,CL:0000127,astrocyte,primary_cell,unknown,,encode,paired,False,0.8591042757034302,rna_seq
+CL:0000134 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0000134,mesenchymal stem cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.24195873737335205,rna_seq
+CL:0000137 total RNA-seq,+,total RNA-seq,CL:0000137,osteocyte,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.15089336037635803,rna_seq
+CL:0000138 total RNA-seq,+,total RNA-seq,CL:0000138,chondrocyte,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.14311158657073975,rna_seq
+CL:0000169 total RNA-seq,+,total RNA-seq,CL:0000169,type B pancreatic cell,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.1288493126630783,rna_seq
+CL:0000182 total RNA-seq,+,total RNA-seq,CL:0000182,hepatocyte,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.11700818687677383,rna_seq
+CL:0000187 total RNA-seq,+,total RNA-seq,CL:0000187,myocyte,in_vitro_differentiated_cells,adult,,encode,paired,False,0.16801898181438446,rna_seq
+CL:0000192 total RNA-seq,+,total RNA-seq,CL:0000192,smooth muscle cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.17651152610778809,rna_seq
+CL:0000221 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0000221,ectodermal cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.12823955714702606,rna_seq
+CL:0000222 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0000222,mesodermal cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.2540099322795868,rna_seq
+CL:0000223 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0000223,endodermal cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.18341697752475739,rna_seq
+CL:0000223 total RNA-seq,+,total RNA-seq,CL:0000223,endodermal cell,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.0849326029419899,rna_seq
+CL:0000236 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0000236,B cell,primary_cell,adult,,encode,paired,False,0.1000189334154129,rna_seq
+CL:0000236 total RNA-seq,+,total RNA-seq,CL:0000236,B cell,primary_cell,adult,,encode,single,False,0.12873651087284088,rna_seq
+CL:0000307 total RNA-seq,+,total RNA-seq,CL:0000307,tracheal epithelial cell,primary_cell,adult,,encode,paired,False,0.24377675354480743,rna_seq
+CL:0000312 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0000312,keratinocyte,primary_cell,unknown,,encode,paired,False,0.15834681689739227,rna_seq
+CL:0000346 total RNA-seq,+,total RNA-seq,CL:0000346,hair follicle dermal papilla cell,primary_cell,adult,,encode,paired,False,0.10018045455217361,rna_seq
+CL:0000351 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0000351,trophoblast cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.15624946355819702,rna_seq
+CL:0000515 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0000515,skeletal muscle myoblast,primary_cell,unknown,,encode,paired,False,0.23633140325546265,rna_seq
+CL:0000515 total RNA-seq,+,total RNA-seq,CL:0000515,skeletal muscle myoblast,primary_cell,unknown,,encode,paired,False,0.21440713107585907,rna_seq
+CL:0000594 total RNA-seq,+,total RNA-seq,CL:0000594,skeletal muscle satellite cell,primary_cell,adult,,encode,paired,False,0.15152136981487274,rna_seq
+CL:0000623 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0000623,natural killer cell,primary_cell,adult,,encode,paired,False,0.09810050576925278,rna_seq
+CL:0000623 total RNA-seq,+,total RNA-seq,CL:0000623,natural killer cell,primary_cell,adult,,encode,single,False,0.09643229097127914,rna_seq
+CL:0000624 total RNA-seq,+,total RNA-seq,CL:0000624,"CD4-positive, alpha-beta T cell",primary_cell,adult,,encode,single,False,0.16961726546287537,rna_seq
+CL:0000625 total RNA-seq,+,total RNA-seq,CL:0000625,"CD8-positive, alpha-beta T cell",primary_cell,adult,,encode,single,False,0.1872248351573944,rna_seq
+CL:0000650 total RNA-seq,+,total RNA-seq,CL:0000650,mesangial cell,primary_cell,"unknown,embryonic",,encode,paired,False,0.22799433767795563,rna_seq
+CL:0000679 total RNA-seq,+,total RNA-seq,CL:0000679,glutamatergic neuron,in_vitro_differentiated_cells,adult,,encode,single,False,0.12083250284194946,rna_seq
+CL:0000746 total RNA-seq,+,total RNA-seq,CL:0000746,cardiac muscle cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.12043581157922745,rna_seq
+CL:0000792 total RNA-seq,+,total RNA-seq,CL:0000792,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",primary_cell,adult,,encode,single,False,0.2166270911693573,rna_seq
+CL:0000837 total RNA-seq,+,total RNA-seq,CL:0000837,hematopoietic multipotent progenitor cell,in_vitro_differentiated_cells,unknown,,encode,paired,False,0.08746447414159775,rna_seq
+CL:0000842 total RNA-seq,+,total RNA-seq,CL:0000842,mononuclear cell,primary_cell,adult,,encode,paired,False,0.11518890410661697,rna_seq
+CL:0000895 total RNA-seq,+,total RNA-seq,CL:0000895,"naive thymus-derived CD4-positive, alpha-beta T cell",primary_cell,adult,,encode,single,False,0.10208984464406967,rna_seq
+CL:0000897 total RNA-seq,+,total RNA-seq,CL:0000897,"CD4-positive, alpha-beta memory T cell",primary_cell,adult,,encode,single,False,0.14780637621879578,rna_seq
+CL:0000899 total RNA-seq,+,total RNA-seq,CL:0000899,T-helper 17 cell,primary_cell,adult,,encode,single,False,0.15964914858341217,rna_seq
+CL:0000900 total RNA-seq,+,total RNA-seq,CL:0000900,"naive thymus-derived CD8-positive, alpha-beta T cell",primary_cell,adult,,encode,single,False,0.15224876999855042,rna_seq
+CL:0000909 total RNA-seq,+,total RNA-seq,CL:0000909,"CD8-positive, alpha-beta memory T cell",primary_cell,adult,,encode,single,False,0.1914062649011612,rna_seq
+CL:0001054 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0001054,CD14-positive monocyte,primary_cell,adult,,encode,paired,False,0.13608932495117188,rna_seq
+CL:0002098 total RNA-seq,+,total RNA-seq,CL:0002098,regular cardiac myocyte,primary_cell,adult,,encode,paired,False,0.12369280308485031,rna_seq
+CL:0002188 total RNA-seq,+,total RNA-seq,CL:0002188,glomerular endothelial cell,primary_cell,embryonic,,encode,paired,False,0.15931491553783417,rna_seq
+CL:0002306 total RNA-seq,+,total RNA-seq,CL:0002306,epithelial cell of proximal tubule,primary_cell,unknown,,encode,paired,False,0.3053675889968872,rna_seq
+CL:0002319 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0002319,neural cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.3370579481124878,rna_seq
+CL:0002324 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0002324,myoepithelial cell of mammary gland,primary_cell,adult,,encode,paired,False,0.11617916077375412,rna_seq
+CL:0002326 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0002326,luminal epithelial cell of mammary gland,primary_cell,adult,,encode,paired,False,0.10454441606998444,rna_seq
+CL:0002327 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0002327,mammary epithelial cell,primary_cell,adult,,encode,paired,False,0.1524529904127121,rna_seq
+CL:0002327 total RNA-seq,+,total RNA-seq,CL:0002327,mammary epithelial cell,primary_cell,adult,,encode,paired,False,0.12234798818826675,rna_seq
+CL:0002328 total RNA-seq,+,total RNA-seq,CL:0002328,bronchial epithelial cell,primary_cell,adult,,encode,paired,False,0.11330371350049973,rna_seq
+CL:0002351 total RNA-seq,+,total RNA-seq,CL:0002351,progenitor cell of endocrine pancreas,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.11136709153652191,rna_seq
+CL:0002366 total RNA-seq,+,total RNA-seq,CL:0002366,myometrial cell,primary_cell,adult,,encode,paired,False,0.6166583299636841,rna_seq
+CL:0002368 total RNA-seq,+,total RNA-seq,CL:0002368,airway epithelial cell,primary_cell,unknown,,encode,paired,False,0.26418039202690125,rna_seq
+CL:0002372 total RNA-seq,+,total RNA-seq,CL:0002372,myotube,in_vitro_differentiated_cells,unknown,,encode,paired,False,0.27930885553359985,rna_seq
+CL:0002451 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0002451,mammary stem cell,primary_cell,adult,,encode,paired,False,0.10450329631567001,rna_seq
+CL:0002518 total RNA-seq,+,total RNA-seq,CL:0002518,kidney epithelial cell,primary_cell,"embryonic,newborn",,encode,paired,False,0.21991325914859772,rna_seq
+CL:0002539 total RNA-seq,+,total RNA-seq,CL:0002539,aortic smooth muscle cell,primary_cell,adult,,encode,paired,False,0.09520107507705688,rna_seq
+CL:0002540 total RNA-seq,+,total RNA-seq,CL:0002540,mesenchymal stem cell of the bone marrow,primary_cell,adult,,encode,paired,False,0.08873797953128815,rna_seq
+CL:0002543 total RNA-seq,+,total RNA-seq,CL:0002543,vein endothelial cell,primary_cell,adult,,encode,paired,False,0.10826694965362549,rna_seq
+CL:0002545 total RNA-seq,+,total RNA-seq,CL:0002545,thoracic aorta endothelial cell,primary_cell,adult,,encode,paired,False,0.09417527914047241,rna_seq
+CL:0002547 total RNA-seq,+,total RNA-seq,CL:0002547,fibroblast of the aortic adventitia,primary_cell,adult,,encode,paired,False,0.09536469727754593,rna_seq
+CL:0002551 total RNA-seq,+,total RNA-seq,CL:0002551,fibroblast of dermis,primary_cell,adult,,encode,paired,False,0.08617620915174484,rna_seq
+CL:0002553 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0002553,fibroblast of lung,primary_cell,adult,,encode,paired,False,0.24327409267425537,rna_seq
+CL:0002553 total RNA-seq,+,total RNA-seq,CL:0002553,fibroblast of lung,primary_cell,adult,,encode,paired,False,0.09721297770738602,rna_seq
+CL:0002558 total RNA-seq,+,total RNA-seq,CL:0002558,fibroblast of villous mesenchyme,primary_cell,newborn,,encode,paired,False,0.09518136084079742,rna_seq
+CL:0002568 total RNA-seq,+,total RNA-seq,CL:0002568,mesenchymal stem cell of Wharton's jelly,primary_cell,newborn,,encode,paired,False,0.0961650162935257,rna_seq
+CL:0002570 total RNA-seq,+,total RNA-seq,CL:0002570,mesenchymal stem cell of adipose,primary_cell,adult,,encode,paired,False,0.09018003195524216,rna_seq
+CL:0002577 total RNA-seq,+,total RNA-seq,CL:0002577,placental epithelial cell,primary_cell,newborn,,encode,paired,False,0.11396694928407669,rna_seq
+CL:0002583 total RNA-seq,+,total RNA-seq,CL:0002583,subcutaneous preadipocyte,primary_cell,adult,,encode,paired,False,0.10257883369922638,rna_seq
+CL:0002584 total RNA-seq,+,total RNA-seq,CL:0002584,renal cortical epithelial cell,primary_cell,adult,,encode,paired,False,0.10081365704536438,rna_seq
+CL:0002591 total RNA-seq,+,total RNA-seq,CL:0002591,smooth muscle cell of the pulmonary artery,primary_cell,adult,,encode,paired,False,0.09092094004154205,rna_seq
+CL:0002592 total RNA-seq,+,total RNA-seq,CL:0002592,smooth muscle cell of the coronary artery,primary_cell,adult,,encode,paired,False,0.12711140513420105,rna_seq
+CL:0002594 total RNA-seq,+,total RNA-seq,CL:0002594,smooth muscle cell of the umbilical artery,primary_cell,newborn,,encode,paired,False,0.10356000065803528,rna_seq
+CL:0002597 total RNA-seq,+,total RNA-seq,CL:0002597,smooth muscle cell of bladder,primary_cell,adult,,encode,paired,False,0.09343661367893219,rna_seq
+CL:0002598 total RNA-seq,+,total RNA-seq,CL:0002598,bronchial smooth muscle cell,primary_cell,adult,,encode,paired,False,0.10710306465625763,rna_seq
+CL:0002600 total RNA-seq,+,total RNA-seq,CL:0002600,smooth muscle cell of trachea,primary_cell,adult,,encode,paired,False,0.11234711110591888,rna_seq
+CL:0002601 total RNA-seq,+,total RNA-seq,CL:0002601,uterine smooth muscle cell,primary_cell,adult,,encode,paired,False,0.09602709114551544,rna_seq
+CL:0002618 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0002618,endothelial cell of umbilical vein,primary_cell,newborn,,encode,paired,False,0.189997598528862,rna_seq
+CL:0002618 total RNA-seq,+,total RNA-seq,CL:0002618,endothelial cell of umbilical vein,primary_cell,newborn,,encode,single,False,0.15063536167144775,rna_seq
+CL:0010002 total RNA-seq,+,total RNA-seq,CL:0010002,epithelial cell of umbilical artery,primary_cell,newborn,,encode,paired,False,0.15703600645065308,rna_seq
+CL:0010003 total RNA-seq,+,total RNA-seq,CL:0010003,epithelial cell of alveolus of lung,primary_cell,"unknown,embryonic",,encode,paired,False,0.24646669626235962,rna_seq
+CL:0011012 total RNA-seq,+,total RNA-seq,CL:0011012,neural crest cell,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.13397547602653503,rna_seq
+CL:0011019 total RNA-seq,+,total RNA-seq,CL:0011019,mesothelial cell of epicardium,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.08205718547105789,rna_seq
+CL:0011020 total RNA-seq,+,total RNA-seq,CL:0011020,neural progenitor cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.11665403842926025,rna_seq
+CL:1000458 total RNA-seq,+,total RNA-seq,CL:1000458,melanocyte of skin,primary_cell,adult,,encode,paired,False,0.11369024962186813,rna_seq
+CL:1001568 total RNA-seq,+,total RNA-seq,CL:1001568,pulmonary artery endothelial cell,primary_cell,adult,,encode,paired,False,0.11397112160921097,rna_seq
+CL:1001606 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:1001606,foreskin keratinocyte,primary_cell,newborn,,encode,paired,False,0.1255163997411728,rna_seq
+CL:1001606 total RNA-seq,+,total RNA-seq,CL:1001606,foreskin keratinocyte,primary_cell,newborn,,encode,paired,False,0.14636552333831787,rna_seq
+CL:1001608 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:1001608,foreskin fibroblast,primary_cell,newborn,,encode,paired,False,0.1319681853055954,rna_seq
+CL:2000001 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:2000001,peripheral blood mononuclear cell,primary_cell,adult,,encode,paired,False,0.1745203137397766,rna_seq
+CL:2000007 total RNA-seq,+,total RNA-seq,CL:2000007,articular chondrocyte of knee joint,primary_cell,adult,,encode,paired,False,0.08014936000108719,rna_seq
+CL:2000010 total RNA-seq,+,total RNA-seq,CL:2000010,dermis blood vessel endothelial cell,primary_cell,child,,encode,paired,False,0.13320288062095642,rna_seq
+CL:2000011 total RNA-seq,+,total RNA-seq,CL:2000011,dermis lymphatic vessel endothelial cell,primary_cell,"child,adult",,encode,paired,False,0.11345934867858887,rna_seq
+CL:2000016 total RNA-seq,+,total RNA-seq,CL:2000016,lung microvascular endothelial cell,primary_cell,adult,,encode,paired,False,0.126098170876503,rna_seq
+CL:2000018 total RNA-seq,+,total RNA-seq,CL:2000018,endothelial cell of coronary artery,primary_cell,adult,,encode,paired,False,0.10375294089317322,rna_seq
+CL:2000040 total RNA-seq,+,total RNA-seq,CL:2000040,bladder microvascular endothelial cell,primary_cell,adult,,encode,paired,False,0.10876604169607162,rna_seq
+CL:2000041 total RNA-seq,+,total RNA-seq,CL:2000041,dermis microvascular lymphatic vessel endothelial cell,primary_cell,adult,,encode,paired,False,0.11738797277212143,rna_seq
+CL:2000045 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:2000045,foreskin melanocyte,primary_cell,newborn,,encode,paired,False,0.10135364532470703,rna_seq
+CL:2000066 total RNA-seq,+,total RNA-seq,CL:2000066,cardiac ventricle fibroblast,primary_cell,"adult,unknown",,encode,paired,False,0.23313458263874054,rna_seq
+CL:2000067 total RNA-seq,+,total RNA-seq,CL:2000067,cardiac atrium fibroblast,primary_cell,child,,encode,paired,False,0.45500898361206055,rna_seq
+CL:2000068 total RNA-seq,+,total RNA-seq,CL:2000068,pericardium fibroblast,primary_cell,"embryonic,unknown",,encode,paired,False,0.4414302408695221,rna_seq
+CL:2000071 total RNA-seq,+,total RNA-seq,CL:2000071,mammary microvascular endothelial cell,primary_cell,adult,,encode,paired,False,0.31211143732070923,rna_seq
+CL:2000078 total RNA-seq,+,total RNA-seq,CL:2000078,placental pericyte,primary_cell,newborn,,encode,paired,False,0.10321545600891113,rna_seq
+CL:2000092 total RNA-seq,+,total RNA-seq,CL:2000092,hair follicular keratinocyte,primary_cell,adult,,encode,paired,False,0.3467121720314026,rna_seq
+CL:2000093 total RNA-seq,+,total RNA-seq,CL:2000093,bronchus fibroblast of lung,primary_cell,unknown,,encode,paired,False,0.34249013662338257,rna_seq
+CL:2000094 total RNA-seq,+,total RNA-seq,CL:2000094,nasal cavity respiratory epithelium epithelial cell of viscerocranial mucosa,primary_cell,adult,,encode,paired,False,0.09655441343784332,rna_seq
+EFO:0001086 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0001086,A549,cell_line,adult,,encode,paired,False,0.12940572202205658,rna_seq
+EFO:0001099 total RNA-seq,+,total RNA-seq,EFO:0001099,Caco-2,cell_line,adult,,encode,single,False,0.14284469187259674,rna_seq
+EFO:0001187 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0001187,HepG2,cell_line,child,,encode,paired,False,0.17039045691490173,rna_seq
+EFO:0001187 total RNA-seq,+,total RNA-seq,EFO:0001187,HepG2,cell_line,child,,encode,paired,False,0.1829448640346527,rna_seq
+EFO:0001193 total RNA-seq,+,total RNA-seq,EFO:0001193,HT-29,cell_line,adult,,encode,paired,False,0.21550512313842773,rna_seq
+EFO:0001196 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0001196,IMR-90,cell_line,embryonic,,encode,paired,False,0.20879118144512177,rna_seq
+EFO:0001196 total RNA-seq,+,total RNA-seq,EFO:0001196,IMR-90,cell_line,embryonic,,encode,paired,False,0.11308588832616806,rna_seq
+EFO:0001200 total RNA-seq,+,total RNA-seq,EFO:0001200,MCF 10A,cell_line,adult,,encode,single,False,0.16067937016487122,rna_seq
+EFO:0001203 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0001203,MCF-7,cell_line,adult,,encode,paired,False,0.12140543013811111,rna_seq
+EFO:0001203 total RNA-seq,+,total RNA-seq,EFO:0001203,MCF-7,cell_line,adult,,encode,single,False,0.19371487200260162,rna_seq
+EFO:0002059 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0002059,HT1080,cell_line,adult,,encode,paired,False,0.17536093294620514,rna_seq
+EFO:0002059 total RNA-seq,+,total RNA-seq,EFO:0002059,HT1080,cell_line,adult,,encode,paired,False,0.26604166626930237,rna_seq
+EFO:0002067 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0002067,K562,cell_line,adult,,encode,paired,False,0.12911121547222137,rna_seq
+EFO:0002067 total RNA-seq,+,total RNA-seq,EFO:0002067,K562,cell_line,adult,,encode,paired,False,0.09864901006221771,rna_seq
+EFO:0002074 total RNA-seq,+,total RNA-seq,EFO:0002074,PC-3,cell_line,adult,,encode,paired,False,0.19547946751117706,rna_seq
+EFO:0002101 total RNA-seq,+,total RNA-seq,EFO:0002101,A172,cell_line,adult,,encode,paired,False,0.28052324056625366,rna_seq
+EFO:0002103 total RNA-seq,+,total RNA-seq,EFO:0002103,A375,cell_line,adult,,encode,paired,False,0.15175825357437134,rna_seq
+EFO:0002106 total RNA-seq,+,total RNA-seq,EFO:0002106,A673,cell_line,child,,encode,single,False,0.13962921500205994,rna_seq
+EFO:0002150 total RNA-seq,+,total RNA-seq,EFO:0002150,Caki2,cell_line,adult,,encode,paired,False,0.9990426301956177,rna_seq
+EFO:0002179 total RNA-seq,+,total RNA-seq,EFO:0002179,G401,cell_line,child,,encode,paired,False,0.5957048535346985,rna_seq
+EFO:0002184 total RNA-seq,+,total RNA-seq,EFO:0002184,H4,cell_line,adult,,encode,paired,False,0.5086643099784851,rna_seq
+EFO:0002234 total RNA-seq,+,total RNA-seq,EFO:0002234,MG63,cell_line,child,,encode,paired,False,0.769120454788208,rna_seq
+EFO:0002330 total RNA-seq,+,total RNA-seq,EFO:0002330,SJSA1,cell_line,adult,,encode,paired,False,0.21904774010181427,rna_seq
+EFO:0002713 total RNA-seq,+,total RNA-seq,EFO:0002713,Panc1,cell_line,adult,,encode,single,False,0.23880760371685028,rna_seq
+EFO:0002779 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0002779,BJ,cell_line,newborn,,encode,paired,False,0.21585357189178467,rna_seq
+EFO:0002784 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0002784,GM12878,cell_line,adult,,encode,paired,False,0.10530221462249756,rna_seq
+EFO:0002784 total RNA-seq,+,total RNA-seq,EFO:0002784,GM12878,cell_line,adult,,encode,paired,False,0.1013726070523262,rna_seq
+EFO:0002791 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0002791,HeLa-S3,cell_line,adult,,encode,paired,False,0.15916843712329865,rna_seq
+EFO:0002819 total RNA-seq,+,total RNA-seq,EFO:0002819,Calu3,cell_line,adult,,encode,single,False,0.136725053191185,rna_seq
+EFO:0002824 total RNA-seq,+,total RNA-seq,EFO:0002824,HCT116,cell_line,adult,,encode,single,False,0.2341846525669098,rna_seq
+EFO:0002847 total RNA-seq,+,total RNA-seq,EFO:0002847,PC-9,cell_line,unknown,,encode,single,False,0.13823053240776062,rna_seq
+EFO:0003042 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0003042,H1,cell_line,embryonic,,encode,paired,False,0.10293757915496826,rna_seq
+EFO:0003042 total RNA-seq,+,total RNA-seq,EFO:0003042,H1,cell_line,embryonic,,encode,single,False,0.1727115660905838,rna_seq
+EFO:0003044 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0003044,NCI-H460,cell_line,unknown,,encode,paired,False,0.37686166167259216,rna_seq
+EFO:0003044 total RNA-seq,+,total RNA-seq,EFO:0003044,NCI-H460,cell_line,unknown,,encode,paired,False,0.14361432194709778,rna_seq
+EFO:0003045 total RNA-seq,+,total RNA-seq,EFO:0003045,H9,cell_line,embryonic,,encode,single,False,0.1480276882648468,rna_seq
+EFO:0003072 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0003072,SK-N-SH,cell_line,child,,encode,paired,False,0.19397687911987305,rna_seq
+EFO:0005697 total RNA-seq,+,total RNA-seq,EFO:0005697,M059J,cell_line,adult,,encode,paired,False,0.4214603304862976,rna_seq
+EFO:0005698 total RNA-seq,+,total RNA-seq,EFO:0005698,Daoy,cell_line,child,,encode,paired,False,0.3396725654602051,rna_seq
+EFO:0005712 total RNA-seq,+,total RNA-seq,EFO:0005712,RPMI7951,cell_line,adult,,encode,paired,False,0.23329555988311768,rna_seq
+EFO:0005714 total RNA-seq,+,total RNA-seq,EFO:0005714,LHCN-M2,cell_line,adult,,encode,paired,False,0.18331725895404816,rna_seq
+EFO:0005719 total RNA-seq,+,total RNA-seq,EFO:0005719,Karpas-422,cell_line,adult,,encode,paired,False,0.16822701692581177,rna_seq
+EFO:0005720 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0005720,SK-MEL-5,cell_line,adult,,encode,paired,False,0.225653737783432,rna_seq
+EFO:0005720 total RNA-seq,+,total RNA-seq,EFO:0005720,SK-MEL-5,cell_line,adult,,encode,paired,False,0.18815664947032928,rna_seq
+EFO:0005721 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0005721,SK-N-DZ,cell_line,child,,encode,paired,False,0.2373400777578354,rna_seq
+EFO:0005722 total RNA-seq,+,total RNA-seq,EFO:0005722,SJCRH30,cell_line,child,,encode,paired,False,0.11020320653915405,rna_seq
+EFO:0005723 total RNA-seq,+,total RNA-seq,EFO:0005723,GM23248,cell_line,adult,,encode,paired,False,0.3644750416278839,rna_seq
+EFO:0005904 total RNA-seq,+,total RNA-seq,EFO:0005904,H7,cell_line,embryonic,,encode,paired,False,0.19296839833259583,rna_seq
+EFO:0006270 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0006270,AG04450,cell_line,embryonic,,encode,paired,False,0.1846042424440384,rna_seq
+EFO:0006711 total RNA-seq,+,total RNA-seq,EFO:0006711,OCI-LY7,cell_line,adult,,encode,paired,False,0.14875547587871552,rna_seq
+EFO:0007089 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0007089,HUES64,cell_line,embryonic,,encode,paired,False,0.29977187514305115,rna_seq
+EFO:0007950 total RNA-seq,+,total RNA-seq,EFO:0007950,GM23338,cell_line,adult,,encode,paired,False,0.10916931182146072,rna_seq
+EFO:0009318 total RNA-seq,+,total RNA-seq,EFO:0009318,HFFc6,cell_line,newborn,,encode,single,False,0.10509984195232391,rna_seq
+EFO:0009747 total RNA-seq,+,total RNA-seq,EFO:0009747,WTC11,cell_line,adult,,encode,single,False,0.11312755942344666,rna_seq
+EFO:0030018 polyA plus RNA-seq,+,polyA plus RNA-seq,EFO:0030018,BLaER1,cell_line,unknown,,encode,paired,False,0.15814301371574402,rna_seq
+NTR:0000427 polyA plus RNA-seq,+,polyA plus RNA-seq,NTR:0000427,neurosphere,primary_cell,embryonic,,encode,paired,False,0.07274492084980011,rna_seq
+NTR:0000491 total RNA-seq,+,total RNA-seq,NTR:0000491,Right ventricle myocardium inferior,tissue,adult,,encode,single,False,0.32427701354026794,rna_seq
+NTR:0000492 total RNA-seq,+,total RNA-seq,NTR:0000492,Right ventricle myocardium superior,tissue,adult,,encode,single,False,0.288472443819046,rna_seq
+NTR:0000493 total RNA-seq,+,total RNA-seq,NTR:0000493,left ventricle myocardium inferior,tissue,adult,,encode,single,False,0.3049757480621338,rna_seq
+NTR:0000494 total RNA-seq,+,total RNA-seq,NTR:0000494,left ventricle myocardium superior,tissue,adult,,encode,single,False,0.3131106197834015,rna_seq
+NTR:0000856 polyA plus RNA-seq,+,polyA plus RNA-seq,NTR:0000856,mesendoderm,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.163086399435997,rna_seq
+NTR:0003013 polyA plus RNA-seq,+,polyA plus RNA-seq,NTR:0003013,placental basal plate,tissue,embryonic,,encode,paired,False,0.07087478041648865,rna_seq
+UBERON:0000016 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0000016,endocrine pancreas,tissue,adult,,encode,paired,False,0.08397355675697327,rna_seq
+UBERON:0000019 total RNA-seq,+,total RNA-seq,UBERON:0000019,camera-type eye,tissue,embryonic,,encode,paired,False,0.0823257565498352,rna_seq
+UBERON:0000056 total RNA-seq,+,total RNA-seq,UBERON:0000056,ureter,tissue,adult,,encode,single,False,0.1433965563774109,rna_seq
+UBERON:0000081 total RNA-seq,+,total RNA-seq,UBERON:0000081,metanephros,tissue,embryonic,,encode,paired,False,0.06954433768987656,rna_seq
+UBERON:0000088 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0000088,trophoblast,tissue,embryonic,,encode,paired,False,0.06895212084054947,rna_seq
+UBERON:0000305 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0000305,amnion,tissue,embryonic,,encode,paired,False,0.05813951417803764,rna_seq
+UBERON:0000317 total RNA-seq,+,total RNA-seq,UBERON:0000317,colonic mucosa,tissue,adult,,encode,single,False,0.23028472065925598,rna_seq
+UBERON:0000473 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0000473,testis,tissue,adult,,encode,paired,False,0.1770746260881424,rna_seq
+UBERON:0000473 total RNA-seq,+,total RNA-seq,UBERON:0000473,testis,tissue,adult,,encode,paired,False,0.05251283198595047,rna_seq
+UBERON:0000945 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0000945,stomach,tissue,adult,,encode,paired,False,0.4686560034751892,rna_seq
+UBERON:0000945 total RNA-seq,+,total RNA-seq,UBERON:0000945,stomach,tissue,adult,,encode,paired,False,0.21596461534500122,rna_seq
+UBERON:0000947 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0000947,aorta,tissue,adult,,encode,paired,False,0.3552292287349701,rna_seq
+UBERON:0000947 total RNA-seq,+,total RNA-seq,UBERON:0000947,aorta,tissue,adult,,encode,single,False,0.10199231654405594,rna_seq
+UBERON:0000948 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0000948,heart,tissue,adult,,encode,paired,False,0.3406100273132324,rna_seq
+UBERON:0000948 total RNA-seq,+,total RNA-seq,UBERON:0000948,heart,tissue,adult,,encode,paired,False,0.08766400068998337,rna_seq
+UBERON:0000955 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0000955,brain,tissue,adult,,encode,paired,False,0.6184623837471008,rna_seq
+UBERON:0000992 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0000992,ovary,tissue,adult,,encode,paired,False,0.12122903764247894,rna_seq
+UBERON:0000992 total RNA-seq,+,total RNA-seq,UBERON:0000992,ovary,tissue,adult,,encode,paired,False,0.11545416712760925,rna_seq
+UBERON:0000995 total RNA-seq,+,total RNA-seq,UBERON:0000995,uterus,tissue,adult,,encode,paired,False,0.36165136098861694,rna_seq
+UBERON:0000996 total RNA-seq,+,total RNA-seq,UBERON:0000996,vagina,tissue,adult,,encode,paired,False,0.23906712234020233,rna_seq
+UBERON:0001013 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0001013,adipose tissue,tissue,adult,,encode,paired,False,0.16599632799625397,rna_seq
+UBERON:0001043 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0001043,esophagus,tissue,adult,,encode,paired,False,0.09775491803884506,rna_seq
+UBERON:0001072 total RNA-seq,+,total RNA-seq,UBERON:0001072,posterior vena cava,tissue,adult,,encode,single,False,0.12246505171060562,rna_seq
+UBERON:0001114 total RNA-seq,+,total RNA-seq,UBERON:0001114,right lobe of liver,tissue,adult,,encode,paired,False,0.1526584029197693,rna_seq
+UBERON:0001115 total RNA-seq,+,total RNA-seq,UBERON:0001115,left lobe of liver,tissue,adult,,encode,single,False,0.2238539606332779,rna_seq
+UBERON:0001134 total RNA-seq,+,total RNA-seq,UBERON:0001134,skeletal muscle tissue,tissue,embryonic,,encode,paired,False,0.10401706397533417,rna_seq
+UBERON:0001150 total RNA-seq,+,total RNA-seq,UBERON:0001150,body of pancreas,tissue,adult,,encode,paired,False,0.14467252790927887,rna_seq
+UBERON:0001157 total RNA-seq,+,total RNA-seq,UBERON:0001157,transverse colon,tissue,adult,,encode,paired,False,0.09727869927883148,rna_seq
+UBERON:0001159 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0001159,sigmoid colon,tissue,adult,,encode,paired,False,0.3216996192932129,rna_seq
+UBERON:0001159 total RNA-seq,+,total RNA-seq,UBERON:0001159,sigmoid colon,tissue,adult,,encode,paired,False,0.09938795119524002,rna_seq
+UBERON:0001211 total RNA-seq,+,total RNA-seq,UBERON:0001211,Peyer's patch,tissue,adult,,encode,paired,False,0.10744151473045349,rna_seq
+UBERON:0001255 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0001255,urinary bladder,tissue,child,,encode,paired,False,0.2732574939727783,rna_seq
+UBERON:0001255 total RNA-seq,+,total RNA-seq,UBERON:0001255,urinary bladder,tissue,embryonic,,encode,paired,False,0.06832712143659592,rna_seq
+UBERON:0001264 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0001264,pancreas,tissue,adult,,encode,paired,False,0.1047201007604599,rna_seq
+UBERON:0001264 total RNA-seq,+,total RNA-seq,UBERON:0001264,pancreas,tissue,adult,,encode,single,False,0.10486374795436859,rna_seq
+UBERON:0001322 total RNA-seq,+,total RNA-seq,UBERON:0001322,sciatic nerve,tissue,adult,,encode,single,False,0.12967179715633392,rna_seq
+UBERON:0001323 total RNA-seq,+,total RNA-seq,UBERON:0001323,tibial nerve,tissue,adult,,encode,paired,False,0.1041068583726883,rna_seq
+UBERON:0001383 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0001383,muscle of leg,tissue,embryonic,,encode,paired,False,0.09429461508989334,rna_seq
+UBERON:0001496 total RNA-seq,+,total RNA-seq,UBERON:0001496,ascending aorta,tissue,adult,,encode,paired,False,0.8633086085319519,rna_seq
+UBERON:0001515 total RNA-seq,+,total RNA-seq,UBERON:0001515,thoracic aorta,tissue,adult,,encode,paired,False,0.10150252282619476,rna_seq
+UBERON:0001723 total RNA-seq,+,total RNA-seq,UBERON:0001723,tongue,tissue,embryonic,,encode,paired,False,0.13978645205497742,rna_seq
+UBERON:0001870 total RNA-seq,+,total RNA-seq,UBERON:0001870,frontal cortex,tissue,embryonic,,encode,paired,False,0.08561448007822037,rna_seq
+UBERON:0001871 total RNA-seq,+,total RNA-seq,UBERON:0001871,temporal lobe,tissue,embryonic,,encode,paired,False,0.09795684367418289,rna_seq
+UBERON:0001872 total RNA-seq,+,total RNA-seq,UBERON:0001872,parietal lobe,tissue,embryonic,,encode,paired,False,0.06359224021434784,rna_seq
+UBERON:0001894 total RNA-seq,+,total RNA-seq,UBERON:0001894,diencephalon,tissue,embryonic,,encode,paired,False,0.07281812280416489,rna_seq
+UBERON:0001987 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0001987,placenta,tissue,embryonic,,encode,paired,False,0.1648215502500534,rna_seq
+UBERON:0001987 total RNA-seq,+,total RNA-seq,UBERON:0001987,placenta,tissue,embryonic,,encode,single,False,0.0722145363688469,rna_seq
+UBERON:0002021 total RNA-seq,+,total RNA-seq,UBERON:0002021,occipital lobe,tissue,embryonic,,encode,paired,False,0.07937046885490417,rna_seq
+UBERON:0002037 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0002037,cerebellum,tissue,embryonic,,encode,paired,False,0.09561976045370102,rna_seq
+UBERON:0002037 total RNA-seq,+,total RNA-seq,UBERON:0002037,cerebellum,tissue,embryonic,,encode,paired,False,0.04635050147771835,rna_seq
+UBERON:0002046 total RNA-seq,+,total RNA-seq,UBERON:0002046,thyroid gland,tissue,adult,,encode,paired,False,0.07622677832841873,rna_seq
+UBERON:0002048 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0002048,lung,tissue,adult,,encode,paired,False,0.11917171627283096,rna_seq
+UBERON:0002048 total RNA-seq,+,total RNA-seq,UBERON:0002048,lung,tissue,embryonic,,encode,paired,False,0.08134463429450989,rna_seq
+UBERON:0002078 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0002078,right cardiac atrium,tissue,adult,,encode,paired,False,0.10576710104942322,rna_seq
+UBERON:0002078 total RNA-seq,+,total RNA-seq,UBERON:0002078,right cardiac atrium,tissue,adult,,encode,single,False,0.12184100598096848,rna_seq
+UBERON:0002079 total RNA-seq,+,total RNA-seq,UBERON:0002079,left cardiac atrium,tissue,adult,,encode,single,False,0.15789535641670227,rna_seq
+UBERON:0002080 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0002080,heart right ventricle,tissue,adult,,encode,paired,False,0.17129531502723694,rna_seq
+UBERON:0002080 total RNA-seq,+,total RNA-seq,UBERON:0002080,heart right ventricle,tissue,adult,,encode,single,False,0.1052015945315361,rna_seq
+UBERON:0002084 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0002084,heart left ventricle,tissue,adult,,encode,paired,False,0.13251028954982758,rna_seq
+UBERON:0002084 total RNA-seq,+,total RNA-seq,UBERON:0002084,heart left ventricle,tissue,adult,,encode,paired,False,0.2699129581451416,rna_seq
+UBERON:0002097 total RNA-seq,+,total RNA-seq,UBERON:0002097,skin of body,tissue,embryonic,,encode,paired,False,0.07668855786323547,rna_seq
+UBERON:0002099 total RNA-seq,+,total RNA-seq,UBERON:0002099,cardiac septum,tissue,adult,,encode,single,False,0.200953409075737,rna_seq
+UBERON:0002106 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0002106,spleen,tissue,adult,,encode,paired,False,0.12643910944461823,rna_seq
+UBERON:0002106 total RNA-seq,+,total RNA-seq,UBERON:0002106,spleen,tissue,adult,,encode,paired,False,0.08943069726228714,rna_seq
+UBERON:0002107 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0002107,liver,tissue,child,,encode,paired,False,0.37201911211013794,rna_seq
+UBERON:0002107 total RNA-seq,+,total RNA-seq,UBERON:0002107,liver,tissue,embryonic,,encode,paired,False,0.1001405194401741,rna_seq
+UBERON:0002108 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0002108,small intestine,tissue,adult,,encode,paired,False,0.5083299279212952,rna_seq
+UBERON:0002113 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0002113,kidney,tissue,adult,,encode,paired,False,0.5964622497558594,rna_seq
+UBERON:0002113 total RNA-seq,+,total RNA-seq,UBERON:0002113,kidney,tissue,adult,,encode,single,False,0.13756509125232697,rna_seq
+UBERON:0002168 total RNA-seq,+,total RNA-seq,UBERON:0002168,left lung,tissue,adult,,encode,single,False,0.15085317194461823,rna_seq
+UBERON:0002170 total RNA-seq,+,total RNA-seq,UBERON:0002170,upper lobe of right lung,tissue,adult,,encode,single,False,0.18277625739574432,rna_seq
+UBERON:0002171 total RNA-seq,+,total RNA-seq,UBERON:0002171,lower lobe of right lung,tissue,adult,,encode,single,False,0.16713519394397736,rna_seq
+UBERON:0002190 total RNA-seq,+,total RNA-seq,UBERON:0002190,subcutaneous adipose tissue,tissue,adult,,encode,paired,False,0.09430896490812302,rna_seq
+UBERON:0002240 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0002240,spinal cord,tissue,embryonic,,encode,paired,False,0.08339249342679977,rna_seq
+UBERON:0002240 total RNA-seq,+,total RNA-seq,UBERON:0002240,spinal cord,tissue,embryonic,,encode,paired,False,0.06603524088859558,rna_seq
+UBERON:0002331 total RNA-seq,+,total RNA-seq,UBERON:0002331,umbilical cord,tissue,embryonic,,encode,paired,False,0.04299703985452652,rna_seq
+UBERON:0002367 total RNA-seq,+,total RNA-seq,UBERON:0002367,prostate gland,tissue,adult,,encode,paired,False,0.13585683703422546,rna_seq
+UBERON:0002369 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0002369,adrenal gland,tissue,adult,,encode,paired,False,0.10644026100635529,rna_seq
+UBERON:0002369 total RNA-seq,+,total RNA-seq,UBERON:0002369,adrenal gland,tissue,adult,,encode,paired,False,0.09952406585216522,rna_seq
+UBERON:0002370 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0002370,thymus,tissue,embryonic,,encode,paired,False,0.13122648000717163,rna_seq
+UBERON:0002469 total RNA-seq,+,total RNA-seq,UBERON:0002469,esophagus mucosa,tissue,adult,,encode,single,False,0.2322499006986618,rna_seq
+UBERON:0003124 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0003124,chorion,tissue,embryonic,,encode,paired,False,0.08912248909473419,rna_seq
+UBERON:0004264 total RNA-seq,+,total RNA-seq,UBERON:0004264,lower leg skin,tissue,adult,,encode,paired,False,0.12619370222091675,rna_seq
+UBERON:0004550 total RNA-seq,+,total RNA-seq,UBERON:0004550,gastroesophageal sphincter,tissue,adult,,encode,paired,False,0.09521754086017609,rna_seq
+UBERON:0004648 total RNA-seq,+,total RNA-seq,UBERON:0004648,esophagus muscularis mucosa,tissue,adult,,encode,paired,False,0.1068030372262001,rna_seq
+UBERON:0004992 total RNA-seq,+,total RNA-seq,UBERON:0004992,mucosa of descending colon,tissue,adult,,encode,single,False,0.10411433130502701,rna_seq
+UBERON:0005033 total RNA-seq,+,total RNA-seq,UBERON:0005033,mucosa of gallbladder,tissue,child,,encode,single,False,0.1606866717338562,rna_seq
+UBERON:0006631 total RNA-seq,+,total RNA-seq,UBERON:0006631,right atrium auricular region,tissue,adult,,encode,paired,False,0.196689173579216,rna_seq
+UBERON:0006920 total RNA-seq,+,total RNA-seq,UBERON:0006920,esophagus squamous epithelium,tissue,adult,,encode,paired,False,0.09920122474431992,rna_seq
+UBERON:0007106 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0007106,chorionic villus,tissue,embryonic,,encode,paired,False,0.06965987384319305,rna_seq
+UBERON:0008367 total RNA-seq,+,total RNA-seq,UBERON:0008367,breast epithelium,tissue,adult,,encode,paired,False,0.07852068543434143,rna_seq
+UBERON:0008450 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0008450,psoas muscle,tissue,adult,,encode,paired,False,0.14193594455718994,rna_seq
+UBERON:0008450 total RNA-seq,+,total RNA-seq,UBERON:0008450,psoas muscle,tissue,adult,,encode,single,False,0.19859784841537476,rna_seq
+UBERON:0008952 total RNA-seq,+,total RNA-seq,UBERON:0008952,upper lobe of left lung,tissue,adult,,encode,paired,False,0.0914291962981224,rna_seq
+UBERON:0008953 total RNA-seq,+,total RNA-seq,UBERON:0008953,lower lobe of left lung,tissue,adult,,encode,single,False,0.10869968682527542,rna_seq
+UBERON:0008971 total RNA-seq,+,total RNA-seq,UBERON:0008971,left colon,tissue,adult,,encode,single,False,0.1311025470495224,rna_seq
+UBERON:0009834 total RNA-seq,+,total RNA-seq,UBERON:0009834,dorsolateral prefrontal cortex,tissue,adult,,encode,single,False,0.03440511226654053,rna_seq
+UBERON:0010414 total RNA-seq,+,total RNA-seq,UBERON:0010414,omental fat pad,tissue,adult,,encode,paired,False,0.08247236907482147,rna_seq
+UBERON:0011907 total RNA-seq,+,total RNA-seq,UBERON:0011907,gastrocnemius medialis,tissue,adult,,encode,paired,False,0.14263799786567688,rna_seq
+UBERON:0015143 total RNA-seq,+,total RNA-seq,UBERON:0015143,mesenteric fat pad,tissue,adult,,encode,single,False,0.17646285891532898,rna_seq
+UBERON:0036149 total RNA-seq,+,total RNA-seq,UBERON:0036149,suprapubic skin,tissue,adult,,encode,paired,False,0.10089779645204544,rna_seq
+UBERON:1000010 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:1000010,mole,tissue,unknown,,encode,paired,False,0.14376847445964813,rna_seq
+CL:0000047 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0000047,neuronal stem cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.14361684024333954,rna_seq
+CL:0000062 total RNA-seq,-,total RNA-seq,CL:0000062,osteoblast,primary_cell,adult,,encode,paired,False,0.09414368867874146,rna_seq
+CL:0000084 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0000084,T-cell,primary_cell,adult,,encode,paired,False,0.1242961511015892,rna_seq
+CL:0000084 total RNA-seq,-,total RNA-seq,CL:0000084,T-cell,primary_cell,adult,,encode,single,False,0.1009339839220047,rna_seq
+CL:0000115 total RNA-seq,-,total RNA-seq,CL:0000115,endothelial cell,in_vitro_differentiated_cells,adult,,encode,single,False,0.13555292785167694,rna_seq
+CL:0000127 total RNA-seq,-,total RNA-seq,CL:0000127,astrocyte,primary_cell,unknown,,encode,paired,False,0.8591042757034302,rna_seq
+CL:0000134 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0000134,mesenchymal stem cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.24195873737335205,rna_seq
+CL:0000137 total RNA-seq,-,total RNA-seq,CL:0000137,osteocyte,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.15089336037635803,rna_seq
+CL:0000138 total RNA-seq,-,total RNA-seq,CL:0000138,chondrocyte,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.14311158657073975,rna_seq
+CL:0000169 total RNA-seq,-,total RNA-seq,CL:0000169,type B pancreatic cell,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.1288493126630783,rna_seq
+CL:0000182 total RNA-seq,-,total RNA-seq,CL:0000182,hepatocyte,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.11700818687677383,rna_seq
+CL:0000187 total RNA-seq,-,total RNA-seq,CL:0000187,myocyte,in_vitro_differentiated_cells,adult,,encode,paired,False,0.16801898181438446,rna_seq
+CL:0000192 total RNA-seq,-,total RNA-seq,CL:0000192,smooth muscle cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.17651152610778809,rna_seq
+CL:0000221 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0000221,ectodermal cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.12823955714702606,rna_seq
+CL:0000222 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0000222,mesodermal cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.2540099322795868,rna_seq
+CL:0000223 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0000223,endodermal cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.18341697752475739,rna_seq
+CL:0000223 total RNA-seq,-,total RNA-seq,CL:0000223,endodermal cell,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.0849326029419899,rna_seq
+CL:0000236 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0000236,B cell,primary_cell,adult,,encode,paired,False,0.1000189334154129,rna_seq
+CL:0000236 total RNA-seq,-,total RNA-seq,CL:0000236,B cell,primary_cell,adult,,encode,single,False,0.12873651087284088,rna_seq
+CL:0000307 total RNA-seq,-,total RNA-seq,CL:0000307,tracheal epithelial cell,primary_cell,adult,,encode,paired,False,0.24377675354480743,rna_seq
+CL:0000312 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0000312,keratinocyte,primary_cell,unknown,,encode,paired,False,0.15834681689739227,rna_seq
+CL:0000346 total RNA-seq,-,total RNA-seq,CL:0000346,hair follicle dermal papilla cell,primary_cell,adult,,encode,paired,False,0.10018045455217361,rna_seq
+CL:0000351 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0000351,trophoblast cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.15624946355819702,rna_seq
+CL:0000515 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0000515,skeletal muscle myoblast,primary_cell,unknown,,encode,paired,False,0.23633140325546265,rna_seq
+CL:0000515 total RNA-seq,-,total RNA-seq,CL:0000515,skeletal muscle myoblast,primary_cell,unknown,,encode,paired,False,0.21440713107585907,rna_seq
+CL:0000594 total RNA-seq,-,total RNA-seq,CL:0000594,skeletal muscle satellite cell,primary_cell,adult,,encode,paired,False,0.15152136981487274,rna_seq
+CL:0000623 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0000623,natural killer cell,primary_cell,adult,,encode,paired,False,0.09810050576925278,rna_seq
+CL:0000623 total RNA-seq,-,total RNA-seq,CL:0000623,natural killer cell,primary_cell,adult,,encode,single,False,0.09643229097127914,rna_seq
+CL:0000624 total RNA-seq,-,total RNA-seq,CL:0000624,"CD4-positive, alpha-beta T cell",primary_cell,adult,,encode,single,False,0.16961726546287537,rna_seq
+CL:0000625 total RNA-seq,-,total RNA-seq,CL:0000625,"CD8-positive, alpha-beta T cell",primary_cell,adult,,encode,single,False,0.1872248351573944,rna_seq
+CL:0000650 total RNA-seq,-,total RNA-seq,CL:0000650,mesangial cell,primary_cell,"unknown,embryonic",,encode,paired,False,0.22799433767795563,rna_seq
+CL:0000679 total RNA-seq,-,total RNA-seq,CL:0000679,glutamatergic neuron,in_vitro_differentiated_cells,adult,,encode,single,False,0.12083250284194946,rna_seq
+CL:0000746 total RNA-seq,-,total RNA-seq,CL:0000746,cardiac muscle cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.12043581157922745,rna_seq
+CL:0000792 total RNA-seq,-,total RNA-seq,CL:0000792,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",primary_cell,adult,,encode,single,False,0.2166270911693573,rna_seq
+CL:0000837 total RNA-seq,-,total RNA-seq,CL:0000837,hematopoietic multipotent progenitor cell,in_vitro_differentiated_cells,unknown,,encode,paired,False,0.08746447414159775,rna_seq
+CL:0000842 total RNA-seq,-,total RNA-seq,CL:0000842,mononuclear cell,primary_cell,adult,,encode,paired,False,0.11518890410661697,rna_seq
+CL:0000895 total RNA-seq,-,total RNA-seq,CL:0000895,"naive thymus-derived CD4-positive, alpha-beta T cell",primary_cell,adult,,encode,single,False,0.10208984464406967,rna_seq
+CL:0000897 total RNA-seq,-,total RNA-seq,CL:0000897,"CD4-positive, alpha-beta memory T cell",primary_cell,adult,,encode,single,False,0.14780637621879578,rna_seq
+CL:0000899 total RNA-seq,-,total RNA-seq,CL:0000899,T-helper 17 cell,primary_cell,adult,,encode,single,False,0.15964914858341217,rna_seq
+CL:0000900 total RNA-seq,-,total RNA-seq,CL:0000900,"naive thymus-derived CD8-positive, alpha-beta T cell",primary_cell,adult,,encode,single,False,0.15224876999855042,rna_seq
+CL:0000909 total RNA-seq,-,total RNA-seq,CL:0000909,"CD8-positive, alpha-beta memory T cell",primary_cell,adult,,encode,single,False,0.1914062649011612,rna_seq
+CL:0001054 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0001054,CD14-positive monocyte,primary_cell,adult,,encode,paired,False,0.13608932495117188,rna_seq
+CL:0002098 total RNA-seq,-,total RNA-seq,CL:0002098,regular cardiac myocyte,primary_cell,adult,,encode,paired,False,0.12369280308485031,rna_seq
+CL:0002188 total RNA-seq,-,total RNA-seq,CL:0002188,glomerular endothelial cell,primary_cell,embryonic,,encode,paired,False,0.15931491553783417,rna_seq
+CL:0002306 total RNA-seq,-,total RNA-seq,CL:0002306,epithelial cell of proximal tubule,primary_cell,unknown,,encode,paired,False,0.3053675889968872,rna_seq
+CL:0002319 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0002319,neural cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.3370579481124878,rna_seq
+CL:0002324 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0002324,myoepithelial cell of mammary gland,primary_cell,adult,,encode,paired,False,0.11617916077375412,rna_seq
+CL:0002326 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0002326,luminal epithelial cell of mammary gland,primary_cell,adult,,encode,paired,False,0.10454441606998444,rna_seq
+CL:0002327 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0002327,mammary epithelial cell,primary_cell,adult,,encode,paired,False,0.1524529904127121,rna_seq
+CL:0002327 total RNA-seq,-,total RNA-seq,CL:0002327,mammary epithelial cell,primary_cell,adult,,encode,paired,False,0.12234798818826675,rna_seq
+CL:0002328 total RNA-seq,-,total RNA-seq,CL:0002328,bronchial epithelial cell,primary_cell,adult,,encode,paired,False,0.11330371350049973,rna_seq
+CL:0002351 total RNA-seq,-,total RNA-seq,CL:0002351,progenitor cell of endocrine pancreas,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.11136709153652191,rna_seq
+CL:0002366 total RNA-seq,-,total RNA-seq,CL:0002366,myometrial cell,primary_cell,adult,,encode,paired,False,0.6166583299636841,rna_seq
+CL:0002368 total RNA-seq,-,total RNA-seq,CL:0002368,airway epithelial cell,primary_cell,unknown,,encode,paired,False,0.26418039202690125,rna_seq
+CL:0002372 total RNA-seq,-,total RNA-seq,CL:0002372,myotube,in_vitro_differentiated_cells,unknown,,encode,paired,False,0.27930885553359985,rna_seq
+CL:0002451 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0002451,mammary stem cell,primary_cell,adult,,encode,paired,False,0.10450329631567001,rna_seq
+CL:0002518 total RNA-seq,-,total RNA-seq,CL:0002518,kidney epithelial cell,primary_cell,"embryonic,newborn",,encode,paired,False,0.21991325914859772,rna_seq
+CL:0002539 total RNA-seq,-,total RNA-seq,CL:0002539,aortic smooth muscle cell,primary_cell,adult,,encode,paired,False,0.09520107507705688,rna_seq
+CL:0002540 total RNA-seq,-,total RNA-seq,CL:0002540,mesenchymal stem cell of the bone marrow,primary_cell,adult,,encode,paired,False,0.08873797953128815,rna_seq
+CL:0002543 total RNA-seq,-,total RNA-seq,CL:0002543,vein endothelial cell,primary_cell,adult,,encode,paired,False,0.10826694965362549,rna_seq
+CL:0002545 total RNA-seq,-,total RNA-seq,CL:0002545,thoracic aorta endothelial cell,primary_cell,adult,,encode,paired,False,0.09417527914047241,rna_seq
+CL:0002547 total RNA-seq,-,total RNA-seq,CL:0002547,fibroblast of the aortic adventitia,primary_cell,adult,,encode,paired,False,0.09536469727754593,rna_seq
+CL:0002551 total RNA-seq,-,total RNA-seq,CL:0002551,fibroblast of dermis,primary_cell,adult,,encode,paired,False,0.08617620915174484,rna_seq
+CL:0002553 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0002553,fibroblast of lung,primary_cell,adult,,encode,paired,False,0.24327409267425537,rna_seq
+CL:0002553 total RNA-seq,-,total RNA-seq,CL:0002553,fibroblast of lung,primary_cell,adult,,encode,paired,False,0.09721297770738602,rna_seq
+CL:0002558 total RNA-seq,-,total RNA-seq,CL:0002558,fibroblast of villous mesenchyme,primary_cell,newborn,,encode,paired,False,0.09518136084079742,rna_seq
+CL:0002568 total RNA-seq,-,total RNA-seq,CL:0002568,mesenchymal stem cell of Wharton's jelly,primary_cell,newborn,,encode,paired,False,0.0961650162935257,rna_seq
+CL:0002570 total RNA-seq,-,total RNA-seq,CL:0002570,mesenchymal stem cell of adipose,primary_cell,adult,,encode,paired,False,0.09018003195524216,rna_seq
+CL:0002577 total RNA-seq,-,total RNA-seq,CL:0002577,placental epithelial cell,primary_cell,newborn,,encode,paired,False,0.11396694928407669,rna_seq
+CL:0002583 total RNA-seq,-,total RNA-seq,CL:0002583,subcutaneous preadipocyte,primary_cell,adult,,encode,paired,False,0.10257883369922638,rna_seq
+CL:0002584 total RNA-seq,-,total RNA-seq,CL:0002584,renal cortical epithelial cell,primary_cell,adult,,encode,paired,False,0.10081365704536438,rna_seq
+CL:0002591 total RNA-seq,-,total RNA-seq,CL:0002591,smooth muscle cell of the pulmonary artery,primary_cell,adult,,encode,paired,False,0.09092094004154205,rna_seq
+CL:0002592 total RNA-seq,-,total RNA-seq,CL:0002592,smooth muscle cell of the coronary artery,primary_cell,adult,,encode,paired,False,0.12711140513420105,rna_seq
+CL:0002594 total RNA-seq,-,total RNA-seq,CL:0002594,smooth muscle cell of the umbilical artery,primary_cell,newborn,,encode,paired,False,0.10356000065803528,rna_seq
+CL:0002597 total RNA-seq,-,total RNA-seq,CL:0002597,smooth muscle cell of bladder,primary_cell,adult,,encode,paired,False,0.09343661367893219,rna_seq
+CL:0002598 total RNA-seq,-,total RNA-seq,CL:0002598,bronchial smooth muscle cell,primary_cell,adult,,encode,paired,False,0.10710306465625763,rna_seq
+CL:0002600 total RNA-seq,-,total RNA-seq,CL:0002600,smooth muscle cell of trachea,primary_cell,adult,,encode,paired,False,0.11234711110591888,rna_seq
+CL:0002601 total RNA-seq,-,total RNA-seq,CL:0002601,uterine smooth muscle cell,primary_cell,adult,,encode,paired,False,0.09602709114551544,rna_seq
+CL:0002618 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0002618,endothelial cell of umbilical vein,primary_cell,newborn,,encode,paired,False,0.189997598528862,rna_seq
+CL:0002618 total RNA-seq,-,total RNA-seq,CL:0002618,endothelial cell of umbilical vein,primary_cell,newborn,,encode,single,False,0.15063536167144775,rna_seq
+CL:0010002 total RNA-seq,-,total RNA-seq,CL:0010002,epithelial cell of umbilical artery,primary_cell,newborn,,encode,paired,False,0.15703600645065308,rna_seq
+CL:0010003 total RNA-seq,-,total RNA-seq,CL:0010003,epithelial cell of alveolus of lung,primary_cell,"unknown,embryonic",,encode,paired,False,0.24646669626235962,rna_seq
+CL:0011012 total RNA-seq,-,total RNA-seq,CL:0011012,neural crest cell,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.13397547602653503,rna_seq
+CL:0011019 total RNA-seq,-,total RNA-seq,CL:0011019,mesothelial cell of epicardium,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.08205718547105789,rna_seq
+CL:0011020 total RNA-seq,-,total RNA-seq,CL:0011020,neural progenitor cell,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.11665403842926025,rna_seq
+CL:1000458 total RNA-seq,-,total RNA-seq,CL:1000458,melanocyte of skin,primary_cell,adult,,encode,paired,False,0.11369024962186813,rna_seq
+CL:1001568 total RNA-seq,-,total RNA-seq,CL:1001568,pulmonary artery endothelial cell,primary_cell,adult,,encode,paired,False,0.11397112160921097,rna_seq
+CL:1001606 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:1001606,foreskin keratinocyte,primary_cell,newborn,,encode,paired,False,0.1255163997411728,rna_seq
+CL:1001606 total RNA-seq,-,total RNA-seq,CL:1001606,foreskin keratinocyte,primary_cell,newborn,,encode,paired,False,0.14636552333831787,rna_seq
+CL:1001608 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:1001608,foreskin fibroblast,primary_cell,newborn,,encode,paired,False,0.1319681853055954,rna_seq
+CL:2000001 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:2000001,peripheral blood mononuclear cell,primary_cell,adult,,encode,paired,False,0.1745203137397766,rna_seq
+CL:2000007 total RNA-seq,-,total RNA-seq,CL:2000007,articular chondrocyte of knee joint,primary_cell,adult,,encode,paired,False,0.08014936000108719,rna_seq
+CL:2000010 total RNA-seq,-,total RNA-seq,CL:2000010,dermis blood vessel endothelial cell,primary_cell,child,,encode,paired,False,0.13320288062095642,rna_seq
+CL:2000011 total RNA-seq,-,total RNA-seq,CL:2000011,dermis lymphatic vessel endothelial cell,primary_cell,"child,adult",,encode,paired,False,0.11345934867858887,rna_seq
+CL:2000016 total RNA-seq,-,total RNA-seq,CL:2000016,lung microvascular endothelial cell,primary_cell,adult,,encode,paired,False,0.126098170876503,rna_seq
+CL:2000018 total RNA-seq,-,total RNA-seq,CL:2000018,endothelial cell of coronary artery,primary_cell,adult,,encode,paired,False,0.10375294089317322,rna_seq
+CL:2000040 total RNA-seq,-,total RNA-seq,CL:2000040,bladder microvascular endothelial cell,primary_cell,adult,,encode,paired,False,0.10876604169607162,rna_seq
+CL:2000041 total RNA-seq,-,total RNA-seq,CL:2000041,dermis microvascular lymphatic vessel endothelial cell,primary_cell,adult,,encode,paired,False,0.11738797277212143,rna_seq
+CL:2000045 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:2000045,foreskin melanocyte,primary_cell,newborn,,encode,paired,False,0.10135364532470703,rna_seq
+CL:2000066 total RNA-seq,-,total RNA-seq,CL:2000066,cardiac ventricle fibroblast,primary_cell,"adult,unknown",,encode,paired,False,0.23313458263874054,rna_seq
+CL:2000067 total RNA-seq,-,total RNA-seq,CL:2000067,cardiac atrium fibroblast,primary_cell,child,,encode,paired,False,0.45500898361206055,rna_seq
+CL:2000068 total RNA-seq,-,total RNA-seq,CL:2000068,pericardium fibroblast,primary_cell,"embryonic,unknown",,encode,paired,False,0.4414302408695221,rna_seq
+CL:2000071 total RNA-seq,-,total RNA-seq,CL:2000071,mammary microvascular endothelial cell,primary_cell,adult,,encode,paired,False,0.31211143732070923,rna_seq
+CL:2000078 total RNA-seq,-,total RNA-seq,CL:2000078,placental pericyte,primary_cell,newborn,,encode,paired,False,0.10321545600891113,rna_seq
+CL:2000092 total RNA-seq,-,total RNA-seq,CL:2000092,hair follicular keratinocyte,primary_cell,adult,,encode,paired,False,0.3467121720314026,rna_seq
+CL:2000093 total RNA-seq,-,total RNA-seq,CL:2000093,bronchus fibroblast of lung,primary_cell,unknown,,encode,paired,False,0.34249013662338257,rna_seq
+CL:2000094 total RNA-seq,-,total RNA-seq,CL:2000094,nasal cavity respiratory epithelium epithelial cell of viscerocranial mucosa,primary_cell,adult,,encode,paired,False,0.09655441343784332,rna_seq
+EFO:0001086 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0001086,A549,cell_line,adult,,encode,paired,False,0.12940572202205658,rna_seq
+EFO:0001099 total RNA-seq,-,total RNA-seq,EFO:0001099,Caco-2,cell_line,adult,,encode,single,False,0.14284469187259674,rna_seq
+EFO:0001187 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0001187,HepG2,cell_line,child,,encode,paired,False,0.17039045691490173,rna_seq
+EFO:0001187 total RNA-seq,-,total RNA-seq,EFO:0001187,HepG2,cell_line,child,,encode,paired,False,0.1829448640346527,rna_seq
+EFO:0001193 total RNA-seq,-,total RNA-seq,EFO:0001193,HT-29,cell_line,adult,,encode,paired,False,0.21550512313842773,rna_seq
+EFO:0001196 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0001196,IMR-90,cell_line,embryonic,,encode,paired,False,0.20879118144512177,rna_seq
+EFO:0001196 total RNA-seq,-,total RNA-seq,EFO:0001196,IMR-90,cell_line,embryonic,,encode,paired,False,0.11308588832616806,rna_seq
+EFO:0001200 total RNA-seq,-,total RNA-seq,EFO:0001200,MCF 10A,cell_line,adult,,encode,single,False,0.16067937016487122,rna_seq
+EFO:0001203 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0001203,MCF-7,cell_line,adult,,encode,paired,False,0.12140543013811111,rna_seq
+EFO:0001203 total RNA-seq,-,total RNA-seq,EFO:0001203,MCF-7,cell_line,adult,,encode,single,False,0.19371487200260162,rna_seq
+EFO:0002059 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0002059,HT1080,cell_line,adult,,encode,paired,False,0.17536093294620514,rna_seq
+EFO:0002059 total RNA-seq,-,total RNA-seq,EFO:0002059,HT1080,cell_line,adult,,encode,paired,False,0.26604166626930237,rna_seq
+EFO:0002067 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0002067,K562,cell_line,adult,,encode,paired,False,0.12911121547222137,rna_seq
+EFO:0002067 total RNA-seq,-,total RNA-seq,EFO:0002067,K562,cell_line,adult,,encode,paired,False,0.09864901006221771,rna_seq
+EFO:0002074 total RNA-seq,-,total RNA-seq,EFO:0002074,PC-3,cell_line,adult,,encode,paired,False,0.19547946751117706,rna_seq
+EFO:0002101 total RNA-seq,-,total RNA-seq,EFO:0002101,A172,cell_line,adult,,encode,paired,False,0.28052324056625366,rna_seq
+EFO:0002103 total RNA-seq,-,total RNA-seq,EFO:0002103,A375,cell_line,adult,,encode,paired,False,0.15175825357437134,rna_seq
+EFO:0002106 total RNA-seq,-,total RNA-seq,EFO:0002106,A673,cell_line,child,,encode,single,False,0.13962921500205994,rna_seq
+EFO:0002150 total RNA-seq,-,total RNA-seq,EFO:0002150,Caki2,cell_line,adult,,encode,paired,False,0.9990426301956177,rna_seq
+EFO:0002179 total RNA-seq,-,total RNA-seq,EFO:0002179,G401,cell_line,child,,encode,paired,False,0.5957048535346985,rna_seq
+EFO:0002184 total RNA-seq,-,total RNA-seq,EFO:0002184,H4,cell_line,adult,,encode,paired,False,0.5086643099784851,rna_seq
+EFO:0002234 total RNA-seq,-,total RNA-seq,EFO:0002234,MG63,cell_line,child,,encode,paired,False,0.769120454788208,rna_seq
+EFO:0002330 total RNA-seq,-,total RNA-seq,EFO:0002330,SJSA1,cell_line,adult,,encode,paired,False,0.21904774010181427,rna_seq
+EFO:0002713 total RNA-seq,-,total RNA-seq,EFO:0002713,Panc1,cell_line,adult,,encode,single,False,0.23880760371685028,rna_seq
+EFO:0002779 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0002779,BJ,cell_line,newborn,,encode,paired,False,0.21585357189178467,rna_seq
+EFO:0002784 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0002784,GM12878,cell_line,adult,,encode,paired,False,0.10530221462249756,rna_seq
+EFO:0002784 total RNA-seq,-,total RNA-seq,EFO:0002784,GM12878,cell_line,adult,,encode,paired,False,0.1013726070523262,rna_seq
+EFO:0002791 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0002791,HeLa-S3,cell_line,adult,,encode,paired,False,0.15916843712329865,rna_seq
+EFO:0002819 total RNA-seq,-,total RNA-seq,EFO:0002819,Calu3,cell_line,adult,,encode,single,False,0.136725053191185,rna_seq
+EFO:0002824 total RNA-seq,-,total RNA-seq,EFO:0002824,HCT116,cell_line,adult,,encode,single,False,0.2341846525669098,rna_seq
+EFO:0002847 total RNA-seq,-,total RNA-seq,EFO:0002847,PC-9,cell_line,unknown,,encode,single,False,0.13823053240776062,rna_seq
+EFO:0003042 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0003042,H1,cell_line,embryonic,,encode,paired,False,0.10293757915496826,rna_seq
+EFO:0003042 total RNA-seq,-,total RNA-seq,EFO:0003042,H1,cell_line,embryonic,,encode,single,False,0.1727115660905838,rna_seq
+EFO:0003044 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0003044,NCI-H460,cell_line,unknown,,encode,paired,False,0.37686166167259216,rna_seq
+EFO:0003044 total RNA-seq,-,total RNA-seq,EFO:0003044,NCI-H460,cell_line,unknown,,encode,paired,False,0.14361432194709778,rna_seq
+EFO:0003045 total RNA-seq,-,total RNA-seq,EFO:0003045,H9,cell_line,embryonic,,encode,single,False,0.1480276882648468,rna_seq
+EFO:0003072 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0003072,SK-N-SH,cell_line,child,,encode,paired,False,0.19397687911987305,rna_seq
+EFO:0005697 total RNA-seq,-,total RNA-seq,EFO:0005697,M059J,cell_line,adult,,encode,paired,False,0.4214603304862976,rna_seq
+EFO:0005698 total RNA-seq,-,total RNA-seq,EFO:0005698,Daoy,cell_line,child,,encode,paired,False,0.3396725654602051,rna_seq
+EFO:0005712 total RNA-seq,-,total RNA-seq,EFO:0005712,RPMI7951,cell_line,adult,,encode,paired,False,0.23329555988311768,rna_seq
+EFO:0005714 total RNA-seq,-,total RNA-seq,EFO:0005714,LHCN-M2,cell_line,adult,,encode,paired,False,0.18331725895404816,rna_seq
+EFO:0005719 total RNA-seq,-,total RNA-seq,EFO:0005719,Karpas-422,cell_line,adult,,encode,paired,False,0.16822701692581177,rna_seq
+EFO:0005720 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0005720,SK-MEL-5,cell_line,adult,,encode,paired,False,0.225653737783432,rna_seq
+EFO:0005720 total RNA-seq,-,total RNA-seq,EFO:0005720,SK-MEL-5,cell_line,adult,,encode,paired,False,0.18815664947032928,rna_seq
+EFO:0005721 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0005721,SK-N-DZ,cell_line,child,,encode,paired,False,0.2373400777578354,rna_seq
+EFO:0005722 total RNA-seq,-,total RNA-seq,EFO:0005722,SJCRH30,cell_line,child,,encode,paired,False,0.11020320653915405,rna_seq
+EFO:0005723 total RNA-seq,-,total RNA-seq,EFO:0005723,GM23248,cell_line,adult,,encode,paired,False,0.3644750416278839,rna_seq
+EFO:0005904 total RNA-seq,-,total RNA-seq,EFO:0005904,H7,cell_line,embryonic,,encode,paired,False,0.19296839833259583,rna_seq
+EFO:0006270 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0006270,AG04450,cell_line,embryonic,,encode,paired,False,0.1846042424440384,rna_seq
+EFO:0006711 total RNA-seq,-,total RNA-seq,EFO:0006711,OCI-LY7,cell_line,adult,,encode,paired,False,0.14875547587871552,rna_seq
+EFO:0007089 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0007089,HUES64,cell_line,embryonic,,encode,paired,False,0.29977187514305115,rna_seq
+EFO:0007950 total RNA-seq,-,total RNA-seq,EFO:0007950,GM23338,cell_line,adult,,encode,paired,False,0.10916931182146072,rna_seq
+EFO:0009318 total RNA-seq,-,total RNA-seq,EFO:0009318,HFFc6,cell_line,newborn,,encode,single,False,0.10509984195232391,rna_seq
+EFO:0009747 total RNA-seq,-,total RNA-seq,EFO:0009747,WTC11,cell_line,adult,,encode,single,False,0.11312755942344666,rna_seq
+EFO:0030018 polyA plus RNA-seq,-,polyA plus RNA-seq,EFO:0030018,BLaER1,cell_line,unknown,,encode,paired,False,0.15814301371574402,rna_seq
+NTR:0000427 polyA plus RNA-seq,-,polyA plus RNA-seq,NTR:0000427,neurosphere,primary_cell,embryonic,,encode,paired,False,0.07274492084980011,rna_seq
+NTR:0000491 total RNA-seq,-,total RNA-seq,NTR:0000491,Right ventricle myocardium inferior,tissue,adult,,encode,single,False,0.32427701354026794,rna_seq
+NTR:0000492 total RNA-seq,-,total RNA-seq,NTR:0000492,Right ventricle myocardium superior,tissue,adult,,encode,single,False,0.288472443819046,rna_seq
+NTR:0000493 total RNA-seq,-,total RNA-seq,NTR:0000493,left ventricle myocardium inferior,tissue,adult,,encode,single,False,0.3049757480621338,rna_seq
+NTR:0000494 total RNA-seq,-,total RNA-seq,NTR:0000494,left ventricle myocardium superior,tissue,adult,,encode,single,False,0.3131106197834015,rna_seq
+NTR:0000856 polyA plus RNA-seq,-,polyA plus RNA-seq,NTR:0000856,mesendoderm,in_vitro_differentiated_cells,embryonic,,encode,paired,False,0.163086399435997,rna_seq
+NTR:0003013 polyA plus RNA-seq,-,polyA plus RNA-seq,NTR:0003013,placental basal plate,tissue,embryonic,,encode,paired,False,0.07087478041648865,rna_seq
+UBERON:0000016 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0000016,endocrine pancreas,tissue,adult,,encode,paired,False,0.08397355675697327,rna_seq
+UBERON:0000019 total RNA-seq,-,total RNA-seq,UBERON:0000019,camera-type eye,tissue,embryonic,,encode,paired,False,0.0823257565498352,rna_seq
+UBERON:0000056 total RNA-seq,-,total RNA-seq,UBERON:0000056,ureter,tissue,adult,,encode,single,False,0.1433965563774109,rna_seq
+UBERON:0000081 total RNA-seq,-,total RNA-seq,UBERON:0000081,metanephros,tissue,embryonic,,encode,paired,False,0.06954433768987656,rna_seq
+UBERON:0000088 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0000088,trophoblast,tissue,embryonic,,encode,paired,False,0.06895212084054947,rna_seq
+UBERON:0000305 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0000305,amnion,tissue,embryonic,,encode,paired,False,0.05813951417803764,rna_seq
+UBERON:0000317 total RNA-seq,-,total RNA-seq,UBERON:0000317,colonic mucosa,tissue,adult,,encode,single,False,0.23028472065925598,rna_seq
+UBERON:0000473 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0000473,testis,tissue,adult,,encode,paired,False,0.1770746260881424,rna_seq
+UBERON:0000473 total RNA-seq,-,total RNA-seq,UBERON:0000473,testis,tissue,adult,,encode,paired,False,0.05251283198595047,rna_seq
+UBERON:0000945 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0000945,stomach,tissue,adult,,encode,paired,False,0.4686560034751892,rna_seq
+UBERON:0000945 total RNA-seq,-,total RNA-seq,UBERON:0000945,stomach,tissue,adult,,encode,paired,False,0.21596461534500122,rna_seq
+UBERON:0000947 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0000947,aorta,tissue,adult,,encode,paired,False,0.3552292287349701,rna_seq
+UBERON:0000947 total RNA-seq,-,total RNA-seq,UBERON:0000947,aorta,tissue,adult,,encode,single,False,0.10199231654405594,rna_seq
+UBERON:0000948 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0000948,heart,tissue,adult,,encode,paired,False,0.3406100273132324,rna_seq
+UBERON:0000948 total RNA-seq,-,total RNA-seq,UBERON:0000948,heart,tissue,adult,,encode,paired,False,0.08766400068998337,rna_seq
+UBERON:0000955 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0000955,brain,tissue,adult,,encode,paired,False,0.6184623837471008,rna_seq
+UBERON:0000992 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0000992,ovary,tissue,adult,,encode,paired,False,0.12122903764247894,rna_seq
+UBERON:0000992 total RNA-seq,-,total RNA-seq,UBERON:0000992,ovary,tissue,adult,,encode,paired,False,0.11545416712760925,rna_seq
+UBERON:0000995 total RNA-seq,-,total RNA-seq,UBERON:0000995,uterus,tissue,adult,,encode,paired,False,0.36165136098861694,rna_seq
+UBERON:0000996 total RNA-seq,-,total RNA-seq,UBERON:0000996,vagina,tissue,adult,,encode,paired,False,0.23906712234020233,rna_seq
+UBERON:0001013 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0001013,adipose tissue,tissue,adult,,encode,paired,False,0.16599632799625397,rna_seq
+UBERON:0001043 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0001043,esophagus,tissue,adult,,encode,paired,False,0.09775491803884506,rna_seq
+UBERON:0001072 total RNA-seq,-,total RNA-seq,UBERON:0001072,posterior vena cava,tissue,adult,,encode,single,False,0.12246505171060562,rna_seq
+UBERON:0001114 total RNA-seq,-,total RNA-seq,UBERON:0001114,right lobe of liver,tissue,adult,,encode,paired,False,0.1526584029197693,rna_seq
+UBERON:0001115 total RNA-seq,-,total RNA-seq,UBERON:0001115,left lobe of liver,tissue,adult,,encode,single,False,0.2238539606332779,rna_seq
+UBERON:0001134 total RNA-seq,-,total RNA-seq,UBERON:0001134,skeletal muscle tissue,tissue,embryonic,,encode,paired,False,0.10401706397533417,rna_seq
+UBERON:0001150 total RNA-seq,-,total RNA-seq,UBERON:0001150,body of pancreas,tissue,adult,,encode,paired,False,0.14467252790927887,rna_seq
+UBERON:0001157 total RNA-seq,-,total RNA-seq,UBERON:0001157,transverse colon,tissue,adult,,encode,paired,False,0.09727869927883148,rna_seq
+UBERON:0001159 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0001159,sigmoid colon,tissue,adult,,encode,paired,False,0.3216996192932129,rna_seq
+UBERON:0001159 total RNA-seq,-,total RNA-seq,UBERON:0001159,sigmoid colon,tissue,adult,,encode,paired,False,0.09938795119524002,rna_seq
+UBERON:0001211 total RNA-seq,-,total RNA-seq,UBERON:0001211,Peyer's patch,tissue,adult,,encode,paired,False,0.10744151473045349,rna_seq
+UBERON:0001255 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0001255,urinary bladder,tissue,child,,encode,paired,False,0.2732574939727783,rna_seq
+UBERON:0001255 total RNA-seq,-,total RNA-seq,UBERON:0001255,urinary bladder,tissue,embryonic,,encode,paired,False,0.06832712143659592,rna_seq
+UBERON:0001264 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0001264,pancreas,tissue,adult,,encode,paired,False,0.1047201007604599,rna_seq
+UBERON:0001264 total RNA-seq,-,total RNA-seq,UBERON:0001264,pancreas,tissue,adult,,encode,single,False,0.10486374795436859,rna_seq
+UBERON:0001322 total RNA-seq,-,total RNA-seq,UBERON:0001322,sciatic nerve,tissue,adult,,encode,single,False,0.12967179715633392,rna_seq
+UBERON:0001323 total RNA-seq,-,total RNA-seq,UBERON:0001323,tibial nerve,tissue,adult,,encode,paired,False,0.1041068583726883,rna_seq
+UBERON:0001383 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0001383,muscle of leg,tissue,embryonic,,encode,paired,False,0.09429461508989334,rna_seq
+UBERON:0001496 total RNA-seq,-,total RNA-seq,UBERON:0001496,ascending aorta,tissue,adult,,encode,paired,False,0.8633086085319519,rna_seq
+UBERON:0001515 total RNA-seq,-,total RNA-seq,UBERON:0001515,thoracic aorta,tissue,adult,,encode,paired,False,0.10150252282619476,rna_seq
+UBERON:0001723 total RNA-seq,-,total RNA-seq,UBERON:0001723,tongue,tissue,embryonic,,encode,paired,False,0.13978645205497742,rna_seq
+UBERON:0001870 total RNA-seq,-,total RNA-seq,UBERON:0001870,frontal cortex,tissue,embryonic,,encode,paired,False,0.08561448007822037,rna_seq
+UBERON:0001871 total RNA-seq,-,total RNA-seq,UBERON:0001871,temporal lobe,tissue,embryonic,,encode,paired,False,0.09795684367418289,rna_seq
+UBERON:0001872 total RNA-seq,-,total RNA-seq,UBERON:0001872,parietal lobe,tissue,embryonic,,encode,paired,False,0.06359224021434784,rna_seq
+UBERON:0001894 total RNA-seq,-,total RNA-seq,UBERON:0001894,diencephalon,tissue,embryonic,,encode,paired,False,0.07281812280416489,rna_seq
+UBERON:0001987 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0001987,placenta,tissue,embryonic,,encode,paired,False,0.1648215502500534,rna_seq
+UBERON:0001987 total RNA-seq,-,total RNA-seq,UBERON:0001987,placenta,tissue,embryonic,,encode,single,False,0.0722145363688469,rna_seq
+UBERON:0002021 total RNA-seq,-,total RNA-seq,UBERON:0002021,occipital lobe,tissue,embryonic,,encode,paired,False,0.07937046885490417,rna_seq
+UBERON:0002037 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0002037,cerebellum,tissue,embryonic,,encode,paired,False,0.09561976045370102,rna_seq
+UBERON:0002037 total RNA-seq,-,total RNA-seq,UBERON:0002037,cerebellum,tissue,embryonic,,encode,paired,False,0.04635050147771835,rna_seq
+UBERON:0002046 total RNA-seq,-,total RNA-seq,UBERON:0002046,thyroid gland,tissue,adult,,encode,paired,False,0.07622677832841873,rna_seq
+UBERON:0002048 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0002048,lung,tissue,adult,,encode,paired,False,0.11917171627283096,rna_seq
+UBERON:0002048 total RNA-seq,-,total RNA-seq,UBERON:0002048,lung,tissue,embryonic,,encode,paired,False,0.08134463429450989,rna_seq
+UBERON:0002078 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0002078,right cardiac atrium,tissue,adult,,encode,paired,False,0.10576710104942322,rna_seq
+UBERON:0002078 total RNA-seq,-,total RNA-seq,UBERON:0002078,right cardiac atrium,tissue,adult,,encode,single,False,0.12184100598096848,rna_seq
+UBERON:0002079 total RNA-seq,-,total RNA-seq,UBERON:0002079,left cardiac atrium,tissue,adult,,encode,single,False,0.15789535641670227,rna_seq
+UBERON:0002080 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0002080,heart right ventricle,tissue,adult,,encode,paired,False,0.17129531502723694,rna_seq
+UBERON:0002080 total RNA-seq,-,total RNA-seq,UBERON:0002080,heart right ventricle,tissue,adult,,encode,single,False,0.1052015945315361,rna_seq
+UBERON:0002084 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0002084,heart left ventricle,tissue,adult,,encode,paired,False,0.13251028954982758,rna_seq
+UBERON:0002084 total RNA-seq,-,total RNA-seq,UBERON:0002084,heart left ventricle,tissue,adult,,encode,paired,False,0.2699129581451416,rna_seq
+UBERON:0002097 total RNA-seq,-,total RNA-seq,UBERON:0002097,skin of body,tissue,embryonic,,encode,paired,False,0.07668855786323547,rna_seq
+UBERON:0002099 total RNA-seq,-,total RNA-seq,UBERON:0002099,cardiac septum,tissue,adult,,encode,single,False,0.200953409075737,rna_seq
+UBERON:0002106 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0002106,spleen,tissue,adult,,encode,paired,False,0.12643910944461823,rna_seq
+UBERON:0002106 total RNA-seq,-,total RNA-seq,UBERON:0002106,spleen,tissue,adult,,encode,paired,False,0.08943069726228714,rna_seq
+UBERON:0002107 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0002107,liver,tissue,child,,encode,paired,False,0.37201911211013794,rna_seq
+UBERON:0002107 total RNA-seq,-,total RNA-seq,UBERON:0002107,liver,tissue,embryonic,,encode,paired,False,0.1001405194401741,rna_seq
+UBERON:0002108 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0002108,small intestine,tissue,adult,,encode,paired,False,0.5083299279212952,rna_seq
+UBERON:0002113 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0002113,kidney,tissue,adult,,encode,paired,False,0.5964622497558594,rna_seq
+UBERON:0002113 total RNA-seq,-,total RNA-seq,UBERON:0002113,kidney,tissue,adult,,encode,single,False,0.13756509125232697,rna_seq
+UBERON:0002168 total RNA-seq,-,total RNA-seq,UBERON:0002168,left lung,tissue,adult,,encode,single,False,0.15085317194461823,rna_seq
+UBERON:0002170 total RNA-seq,-,total RNA-seq,UBERON:0002170,upper lobe of right lung,tissue,adult,,encode,single,False,0.18277625739574432,rna_seq
+UBERON:0002171 total RNA-seq,-,total RNA-seq,UBERON:0002171,lower lobe of right lung,tissue,adult,,encode,single,False,0.16713519394397736,rna_seq
+UBERON:0002190 total RNA-seq,-,total RNA-seq,UBERON:0002190,subcutaneous adipose tissue,tissue,adult,,encode,paired,False,0.09430896490812302,rna_seq
+UBERON:0002240 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0002240,spinal cord,tissue,embryonic,,encode,paired,False,0.08339249342679977,rna_seq
+UBERON:0002240 total RNA-seq,-,total RNA-seq,UBERON:0002240,spinal cord,tissue,embryonic,,encode,paired,False,0.06603524088859558,rna_seq
+UBERON:0002331 total RNA-seq,-,total RNA-seq,UBERON:0002331,umbilical cord,tissue,embryonic,,encode,paired,False,0.04299703985452652,rna_seq
+UBERON:0002367 total RNA-seq,-,total RNA-seq,UBERON:0002367,prostate gland,tissue,adult,,encode,paired,False,0.13585683703422546,rna_seq
+UBERON:0002369 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0002369,adrenal gland,tissue,adult,,encode,paired,False,0.10644026100635529,rna_seq
+UBERON:0002369 total RNA-seq,-,total RNA-seq,UBERON:0002369,adrenal gland,tissue,adult,,encode,paired,False,0.09952406585216522,rna_seq
+UBERON:0002370 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0002370,thymus,tissue,embryonic,,encode,paired,False,0.13122648000717163,rna_seq
+UBERON:0002469 total RNA-seq,-,total RNA-seq,UBERON:0002469,esophagus mucosa,tissue,adult,,encode,single,False,0.2322499006986618,rna_seq
+UBERON:0003124 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0003124,chorion,tissue,embryonic,,encode,paired,False,0.08912248909473419,rna_seq
+UBERON:0004264 total RNA-seq,-,total RNA-seq,UBERON:0004264,lower leg skin,tissue,adult,,encode,paired,False,0.12619370222091675,rna_seq
+UBERON:0004550 total RNA-seq,-,total RNA-seq,UBERON:0004550,gastroesophageal sphincter,tissue,adult,,encode,paired,False,0.09521754086017609,rna_seq
+UBERON:0004648 total RNA-seq,-,total RNA-seq,UBERON:0004648,esophagus muscularis mucosa,tissue,adult,,encode,paired,False,0.1068030372262001,rna_seq
+UBERON:0004992 total RNA-seq,-,total RNA-seq,UBERON:0004992,mucosa of descending colon,tissue,adult,,encode,single,False,0.10411433130502701,rna_seq
+UBERON:0005033 total RNA-seq,-,total RNA-seq,UBERON:0005033,mucosa of gallbladder,tissue,child,,encode,single,False,0.1606866717338562,rna_seq
+UBERON:0006631 total RNA-seq,-,total RNA-seq,UBERON:0006631,right atrium auricular region,tissue,adult,,encode,paired,False,0.196689173579216,rna_seq
+UBERON:0006920 total RNA-seq,-,total RNA-seq,UBERON:0006920,esophagus squamous epithelium,tissue,adult,,encode,paired,False,0.09920122474431992,rna_seq
+UBERON:0007106 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0007106,chorionic villus,tissue,embryonic,,encode,paired,False,0.06965987384319305,rna_seq
+UBERON:0008367 total RNA-seq,-,total RNA-seq,UBERON:0008367,breast epithelium,tissue,adult,,encode,paired,False,0.07852068543434143,rna_seq
+UBERON:0008450 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0008450,psoas muscle,tissue,adult,,encode,paired,False,0.14193594455718994,rna_seq
+UBERON:0008450 total RNA-seq,-,total RNA-seq,UBERON:0008450,psoas muscle,tissue,adult,,encode,single,False,0.19859784841537476,rna_seq
+UBERON:0008952 total RNA-seq,-,total RNA-seq,UBERON:0008952,upper lobe of left lung,tissue,adult,,encode,paired,False,0.0914291962981224,rna_seq
+UBERON:0008953 total RNA-seq,-,total RNA-seq,UBERON:0008953,lower lobe of left lung,tissue,adult,,encode,single,False,0.10869968682527542,rna_seq
+UBERON:0008971 total RNA-seq,-,total RNA-seq,UBERON:0008971,left colon,tissue,adult,,encode,single,False,0.1311025470495224,rna_seq
+UBERON:0009834 total RNA-seq,-,total RNA-seq,UBERON:0009834,dorsolateral prefrontal cortex,tissue,adult,,encode,single,False,0.03440511226654053,rna_seq
+UBERON:0010414 total RNA-seq,-,total RNA-seq,UBERON:0010414,omental fat pad,tissue,adult,,encode,paired,False,0.08247236907482147,rna_seq
+UBERON:0011907 total RNA-seq,-,total RNA-seq,UBERON:0011907,gastrocnemius medialis,tissue,adult,,encode,paired,False,0.14263799786567688,rna_seq
+UBERON:0015143 total RNA-seq,-,total RNA-seq,UBERON:0015143,mesenteric fat pad,tissue,adult,,encode,single,False,0.17646285891532898,rna_seq
+UBERON:0036149 total RNA-seq,-,total RNA-seq,UBERON:0036149,suprapubic skin,tissue,adult,,encode,paired,False,0.10089779645204544,rna_seq
+UBERON:1000010 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:1000010,mole,tissue,unknown,,encode,paired,False,0.14376847445964813,rna_seq
+CL:0000100 total RNA-seq,.,total RNA-seq,CL:0000100,motor neuron,in_vitro_differentiated_cells,adult,,encode,paired,False,0.036661237478256226,rna_seq
+CL:0000121 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000121,Purkinje cell,primary_cell,child,,encode,single,False,0.37860918045043945,rna_seq
+CL:0000182 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000182,hepatocyte,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.21901962161064148,rna_seq
+CL:0000187 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000187,myocyte,in_vitro_differentiated_cells,adult,,encode,paired,False,0.1964004784822464,rna_seq
+CL:0000192 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000192,smooth muscle cell,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.31745073199272156,rna_seq
+CL:0000312 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000312,keratinocyte,primary_cell,unknown,,encode,paired,False,0.21481777727603912,rna_seq
+CL:0000515 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000515,skeletal muscle myoblast,primary_cell,unknown,,encode,paired,False,0.4000442624092102,rna_seq
+CL:0000624 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000624,"CD4-positive, alpha-beta T cell",primary_cell,adult,,encode,paired,False,0.13023579120635986,rna_seq
+CL:0000625 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000625,"CD8-positive, alpha-beta T cell",primary_cell,adult,,encode,paired,False,0.12493370473384857,rna_seq
+CL:0000746 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000746,cardiac muscle cell,in_vitro_differentiated_cells,embryonic,,encode,single,False,0.2051399201154709,rna_seq
+CL:0000788 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000788,naive B cell,primary_cell,unknown,,encode,paired,False,0.23227384686470032,rna_seq
+CL:0000792 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000792,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",primary_cell,unknown,,encode,paired,False,0.2904275953769684,rna_seq
+CL:0000823 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000823,immature natural killer cell,primary_cell,unknown,,encode,paired,False,0.3934170603752136,rna_seq
+CL:0000895 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000895,"naive thymus-derived CD4-positive, alpha-beta T cell",primary_cell,unknown,,encode,paired,False,0.36405277252197266,rna_seq
+CL:0000897 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000897,"CD4-positive, alpha-beta memory T cell",primary_cell,unknown,,encode,paired,False,0.3783103823661804,rna_seq
+CL:0000900 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000900,"naive thymus-derived CD8-positive, alpha-beta T cell",primary_cell,unknown,,encode,paired,False,0.3450876772403717,rna_seq
+CL:0000909 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000909,"CD8-positive, alpha-beta memory T cell",primary_cell,unknown,,encode,paired,False,0.5657815933227539,rna_seq
+CL:0001053 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0001053,IgD-negative memory B cell,primary_cell,unknown,,encode,paired,False,0.5707902908325195,rna_seq
+CL:0001054 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0001054,CD14-positive monocyte,primary_cell,unknown,,encode,paired,False,0.6615868806838989,rna_seq
+CL:0001059 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0001059,"common myeloid progenitor, CD34-positive",primary_cell,adult,,encode,paired,False,0.17284150421619415,rna_seq
+CL:0002553 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0002553,fibroblast of lung,primary_cell,unknown,,encode,paired,False,0.46712785959243774,rna_seq
+CL:0002618 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0002618,endothelial cell of umbilical vein,primary_cell,newborn,,encode,paired,False,0.34657302498817444,rna_seq
+CL:0011022 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0011022,fibroblast of skin of back,primary_cell,embryonic,,encode,single,False,0.7832281589508057,rna_seq
+CL:2000013 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:2000013,fibroblast of skin of abdomen,primary_cell,embryonic,,encode,single,False,0.6885204911231995,rna_seq
+CLO:0007045 polyA plus RNA-seq,.,polyA plus RNA-seq,CLO:0007045,"Jurkat, Clone E6-1",cell_line,child,,encode,single,False,1.3723630905151367,rna_seq
+EFO:0000572 gtex Cells_EBV-transformed_lymphocytes polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0000572,lymphoblast,tissue,adult,Cells_EBV-transformed_lymphocytes,gtex,paired,False,0.06413153558969498,rna_seq
+EFO:0001187 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0001187,HepG2,cell_line,child,,encode,paired,False,0.2669706642627716,rna_seq
+EFO:0001203 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0001203,MCF-7,cell_line,adult,,encode,paired,False,0.2495776116847992,rna_seq
+EFO:0002009 gtex Cells_Cultured_fibroblasts polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0002009,fibroblast derived cell line,tissue,adult,Cells_Cultured_fibroblasts,gtex,paired,False,0.05656168609857559,rna_seq
+EFO:0002067 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0002067,K562,cell_line,adult,,encode,paired,False,0.24082602560520172,rna_seq
+EFO:0002713 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0002713,Panc1,cell_line,adult,,encode,single,False,1.0050067901611328,rna_seq
+EFO:0002784 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0002784,GM12878,cell_line,adult,,encode,paired,False,0.24893425405025482,rna_seq
+EFO:0002785 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0002785,GM12891,cell_line,unknown,,encode,paired,False,0.2509686350822449,rna_seq
+EFO:0002786 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0002786,GM12892,cell_line,unknown,,encode,paired,False,0.1818031668663025,rna_seq
+EFO:0002791 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0002791,HeLa-S3,cell_line,adult,,encode,paired,False,0.2589356601238251,rna_seq
+EFO:0002824 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0002824,HCT116,cell_line,adult,,encode,paired,False,0.3129168152809143,rna_seq
+EFO:0003042 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0003042,H1,cell_line,embryonic,,encode,paired,False,0.19382283091545105,rna_seq
+EFO:0003072 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0003072,SK-N-SH,cell_line,child,,encode,single,False,0.7414088845252991,rna_seq
+EFO:0005234 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0005234,PFSK-1,cell_line,child,,encode,single,False,1.2181520462036133,rna_seq
+EFO:0005237 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0005237,U-87 MG,cell_line,adult,,encode,single,False,1.1521613597869873,rna_seq
+EFO:0005714 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0005714,LHCN-M2,cell_line,adult,,encode,paired,False,0.32134950160980225,rna_seq
+EFO:0005723 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0005723,GM23248,cell_line,adult,,encode,single,False,0.43325719237327576,rna_seq
+EFO:0005725 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0005725,BE2C,cell_line,child,,encode,single,False,0.8952913284301758,rna_seq
+EFO:0007950 polyA plus RNA-seq,.,polyA plus RNA-seq,EFO:0007950,GM23338,cell_line,adult,,encode,single,False,0.21331246197223663,rna_seq
+EFO:0009747 total RNA-seq,.,total RNA-seq,EFO:0009747,WTC11,cell_line,adult,,encode,paired,False,0.24785810708999634,rna_seq
+NTR:0000524 polyA plus RNA-seq,.,polyA plus RNA-seq,NTR:0000524,fibroblast of skin of scalp,primary_cell,embryonic,,encode,single,False,0.7250751852989197,rna_seq
+UBERON:0000007 gtex Pituitary polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0000007,pituitary gland,tissue,adult,Pituitary,gtex,paired,False,0.04781800135970116,rna_seq
+UBERON:0000059 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0000059,large intestine,tissue,embryonic,,encode,paired,False,0.14119458198547363,rna_seq
+UBERON:0000458 gtex Cervix_Endocervix polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0000458,endocervix,tissue,adult,Cervix_Endocervix,gtex,paired,False,0.11742750555276871,rna_seq
+UBERON:0000473 gtex Testis polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0000473,testis,tissue,adult,Testis,gtex,paired,False,0.03635135665535927,rna_seq
+UBERON:0000473 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0000473,testis,tissue,embryonic,,encode,single,False,0.7033047676086426,rna_seq
+UBERON:0000945 gtex Stomach polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0000945,stomach,tissue,adult,Stomach,gtex,paired,False,0.051221586763858795,rna_seq
+UBERON:0000945 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0000945,stomach,tissue,embryonic,,encode,single,False,0.08617443591356277,rna_seq
+UBERON:0000948 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0000948,heart,tissue,embryonic,,encode,single,False,0.46738457679748535,rna_seq
+UBERON:0000992 gtex Ovary polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0000992,ovary,tissue,adult,Ovary,gtex,paired,False,0.054519396275281906,rna_seq
+UBERON:0000992 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0000992,ovary,tissue,embryonic,,encode,single,False,0.418280690908432,rna_seq
+UBERON:0000995 gtex Uterus polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0000995,uterus,tissue,adult,Uterus,gtex,paired,False,0.059197694063186646,rna_seq
+UBERON:0000996 gtex Vagina polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0000996,vagina,tissue,adult,Vagina,gtex,paired,False,0.05682068690657616,rna_seq
+UBERON:0001114 gtex Liver polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001114,right lobe of liver,tissue,adult,Liver,gtex,paired,False,0.06319103389978409,rna_seq
+UBERON:0001150 gtex Pancreas polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001150,body of pancreas,tissue,adult,Pancreas,gtex,paired,False,0.0555739589035511,rna_seq
+UBERON:0001157 gtex Colon_Transverse polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001157,transverse colon,tissue,adult,Colon_Transverse,gtex,paired,False,0.049934789538383484,rna_seq
+UBERON:0001159 gtex Colon_Sigmoid polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001159,sigmoid colon,tissue,adult,Colon_Sigmoid,gtex,paired,False,0.0509834922850132,rna_seq
+UBERON:0001211 gtex Small_Intestine_Terminal_Ileum polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001211,Peyer's patch,tissue,adult,Small_Intestine_Terminal_Ileum,gtex,paired,False,0.05497457832098007,rna_seq
+UBERON:0001224 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001224,renal pelvis,tissue,embryonic,,encode,single,False,0.26900357007980347,rna_seq
+UBERON:0001225 gtex Kidney_Cortex polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001225,cortex of kidney,tissue,adult,Kidney_Cortex,gtex,paired,False,0.06602127104997635,rna_seq
+UBERON:0001255 gtex Bladder polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001255,urinary bladder,tissue,adult,Bladder,gtex,paired,False,0.09805270284414291,rna_seq
+UBERON:0001293 gtex Kidney_Medulla polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001293,outer medulla of kidney,tissue,adult,Kidney_Medulla,gtex,paired,False,0.18485306203365326,rna_seq
+UBERON:0001323 gtex Nerve_Tibial polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001323,tibial nerve,tissue,adult,Nerve_Tibial,gtex,paired,False,0.044805847108364105,rna_seq
+UBERON:0001383 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001383,muscle of leg,tissue,embryonic,,encode,single,False,0.21778036653995514,rna_seq
+UBERON:0001496 gtex Artery_Aorta polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001496,ascending aorta,tissue,adult,Artery_Aorta,gtex,paired,False,0.05127594247460365,rna_seq
+UBERON:0001499 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001499,muscle of arm,tissue,embryonic,,encode,paired,False,0.31494125723838806,rna_seq
+UBERON:0001621 gtex Artery_Coronary polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001621,coronary artery,tissue,adult,Artery_Coronary,gtex,paired,False,0.0551995113492012,rna_seq
+UBERON:0001774 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001774,muscle of trunk,tissue,embryonic,,encode,paired,False,0.08671995252370834,rna_seq
+UBERON:0001870 gtex Brain_Cortex polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001870,frontal cortex,tissue,adult,Brain_Cortex,gtex,paired,False,0.043324146419763565,rna_seq
+UBERON:0001873 gtex Brain_Caudate_basal_ganglia polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001873,caudate nucleus,tissue,adult,Brain_Caudate_basal_ganglia,gtex,paired,False,0.050032857805490494,rna_seq
+UBERON:0001874 gtex Brain_Putamen_basal_ganglia polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001874,putamen,tissue,adult,Brain_Putamen_basal_ganglia,gtex,paired,False,0.05428667739033699,rna_seq
+UBERON:0001876 gtex Brain_Amygdala polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001876,amygdala,tissue,adult,Brain_Amygdala,gtex,paired,False,0.05657550320029259,rna_seq
+UBERON:0001882 gtex Brain_Nucleus_accumbens_basal_ganglia polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001882,nucleus accumbens,tissue,adult,Brain_Nucleus_accumbens_basal_ganglia,gtex,paired,False,0.0499090738594532,rna_seq
+UBERON:0001898 gtex Brain_Hypothalamus polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001898,hypothalamus,tissue,adult,Brain_Hypothalamus,gtex,paired,False,0.05152333900332451,rna_seq
+UBERON:0001954 gtex Brain_Hippocampus polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001954,Ammon's horn,tissue,adult,Brain_Hippocampus,gtex,paired,False,0.049906063824892044,rna_seq
+UBERON:0002037 gtex Brain_Cerebellum polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002037,cerebellum,tissue,adult,Brain_Cerebellum,gtex,paired,False,0.05265718325972557,rna_seq
+UBERON:0002038 gtex Brain_Substantia_nigra polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002038,substantia nigra,tissue,adult,Brain_Substantia_nigra,gtex,paired,False,0.062162790447473526,rna_seq
+UBERON:0002046 gtex Thyroid polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002046,thyroid gland,tissue,adult,Thyroid,gtex,paired,False,0.04541570320725441,rna_seq
+UBERON:0002106 gtex Spleen polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002106,spleen,tissue,adult,Spleen,gtex,paired,False,0.05477229878306389,rna_seq
+UBERON:0002106 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002106,spleen,tissue,embryonic,,encode,single,False,0.39663490653038025,rna_seq
+UBERON:0002107 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002107,liver,tissue,"child,adult",,encode,single,False,0.23851369321346283,rna_seq
+UBERON:0002108 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002108,small intestine,tissue,embryonic,,encode,paired,False,0.14074227213859558,rna_seq
+UBERON:0002113 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002113,kidney,tissue,embryonic,,encode,single,False,0.22629043459892273,rna_seq
+UBERON:0002167 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002167,right lung,tissue,embryonic,,encode,single,False,0.1865345537662506,rna_seq
+UBERON:0002168 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002168,left lung,tissue,embryonic,,encode,single,False,0.17341721057891846,rna_seq
+UBERON:0002190 gtex Adipose_Subcutaneous polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002190,subcutaneous adipose tissue,tissue,adult,Adipose_Subcutaneous,gtex,paired,False,0.04698016494512558,rna_seq
+UBERON:0002240 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002240,spinal cord,tissue,embryonic,,encode,single,False,0.303958535194397,rna_seq
+UBERON:0002245 gtex Brain_Cerebellar_Hemisphere polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002245,cerebellar hemisphere,tissue,adult,Brain_Cerebellar_Hemisphere,gtex,paired,False,0.055197425186634064,rna_seq
+UBERON:0002324 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002324,muscle of back,tissue,embryonic,,encode,single,False,0.2242487370967865,rna_seq
+UBERON:0002367 gtex Prostate polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002367,prostate gland,tissue,adult,Prostate,gtex,paired,False,0.05147687718272209,rna_seq
+UBERON:0002369 gtex Adrenal_Gland polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002369,adrenal gland,tissue,adult,Adrenal_Gland,gtex,paired,False,0.05743984505534172,rna_seq
+UBERON:0002369 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002369,adrenal gland,tissue,embryonic,,encode,single,False,0.32479262351989746,rna_seq
+UBERON:0002370 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0002370,thymus,tissue,embryonic,,encode,single,False,0.17336340248584747,rna_seq
+UBERON:0003662 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0003662,forelimb muscle,tissue,embryonic,,encode,single,False,0.5638512969017029,rna_seq
+UBERON:0003663 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0003663,hindlimb muscle,tissue,embryonic,,encode,single,False,0.6374766826629639,rna_seq
+UBERON:0003889 gtex Fallopian_Tube polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0003889,fallopian tube,tissue,adult,Fallopian_Tube,gtex,paired,False,0.12156927585601807,rna_seq
+UBERON:0004264 gtex Skin_Sun_Exposed_Lower_leg polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0004264,lower leg skin,tissue,adult,Skin_Sun_Exposed_Lower_leg,gtex,paired,False,0.044400908052921295,rna_seq
+UBERON:0004538 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0004538,left kidney,tissue,embryonic,,encode,single,False,0.3590563237667084,rna_seq
+UBERON:0004550 gtex Esophagus_Gastroesophageal_Junction polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0004550,gastroesophageal sphincter,tissue,adult,Esophagus_Gastroesophageal_Junction,gtex,paired,False,0.05182637274265289,rna_seq
+UBERON:0004648 gtex Esophagus_Muscularis polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0004648,esophagus muscularis mucosa,tissue,adult,Esophagus_Muscularis,gtex,paired,False,0.05034983530640602,rna_seq
+UBERON:0005270 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0005270,renal cortex interstitium,tissue,embryonic,,encode,single,False,0.273677796125412,rna_seq
+UBERON:0006330 gtex Minor_Salivary_Gland polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0006330,anterior lingual gland,tissue,adult,Minor_Salivary_Gland,gtex,paired,False,0.05584359169006348,rna_seq
+UBERON:0006469 gtex Brain_Spinal_cord_cervical_c-1 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0006469,C1 segment of cervical spinal cord,tissue,adult,Brain_Spinal_cord_cervical_c-1,gtex,paired,False,0.06018725037574768,rna_seq
+UBERON:0006566 gtex Heart_Left_Ventricle polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0006566,left ventricle myocardium,tissue,adult,Heart_Left_Ventricle,gtex,paired,False,0.05494289472699165,rna_seq
+UBERON:0006631 gtex Heart_Atrial_Appendage polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0006631,right atrium auricular region,tissue,adult,Heart_Atrial_Appendage,gtex,paired,False,0.04985639825463295,rna_seq
+UBERON:0006920 gtex Esophagus_Mucosa polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0006920,esophagus squamous epithelium,tissue,adult,Esophagus_Mucosa,gtex,paired,False,0.05086713656783104,rna_seq
+UBERON:0007610 gtex Artery_Tibial polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0007610,tibial artery,tissue,adult,Artery_Tibial,gtex,paired,False,0.04839674010872841,rna_seq
+UBERON:0008367 gtex Breast_Mammary_Tissue polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0008367,breast epithelium,tissue,adult,Breast_Mammary_Tissue,gtex,paired,False,0.04591913893818855,rna_seq
+UBERON:0008952 gtex Lung polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0008952,upper lobe of left lung,tissue,adult,Lung,gtex,paired,False,0.04629707708954811,rna_seq
+UBERON:0009834 gtex Brain_Frontal_Cortex_BA9 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0009834,dorsolateral prefrontal cortex,tissue,adult,Brain_Frontal_Cortex_BA9,gtex,paired,False,0.05219842493534088,rna_seq
+UBERON:0009835 gtex Brain_Anterior_cingulate_cortex_BA24 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0009835,anterior cingulate cortex,tissue,adult,Brain_Anterior_cingulate_cortex_BA24,gtex,paired,False,0.05334325134754181,rna_seq
+UBERON:0010414 gtex Adipose_Visceral_Omentum polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0010414,omental fat pad,tissue,adult,Adipose_Visceral_Omentum,gtex,paired,False,0.048737503588199615,rna_seq
+UBERON:0011907 gtex Muscle_Skeletal polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0011907,gastrocnemius medialis,tissue,adult,Muscle_Skeletal,gtex,paired,False,0.046867091208696365,rna_seq
+UBERON:0012249 gtex Cervix_Ectocervix polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0012249,ectocervix,tissue,adult,Cervix_Ectocervix,gtex,paired,False,0.11553216725587845,rna_seq
+UBERON:0013756 gtex Whole_Blood polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0013756,venous blood,tissue,adult,Whole_Blood,gtex,paired,False,0.05588344484567642,rna_seq
+UBERON:0018115 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0018115,left renal pelvis,tissue,embryonic,,encode,single,False,0.2682223618030548,rna_seq
+UBERON:0018116 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0018116,right renal pelvis,tissue,embryonic,,encode,single,False,0.25852155685424805,rna_seq
+UBERON:0018117 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0018117,left renal cortex interstitium,tissue,embryonic,,encode,single,False,0.21519021689891815,rna_seq
+UBERON:0018118 polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0018118,right renal cortex interstitium,tissue,embryonic,,encode,single,False,0.3656761348247528,rna_seq
+UBERON:0036149 gtex Skin_Not_Sun_Exposed_Suprapubic polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0036149,suprapubic skin,tissue,adult,Skin_Not_Sun_Exposed_Suprapubic,gtex,paired,False,0.04540431126952171,rna_seq

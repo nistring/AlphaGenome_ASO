@@ -1,17 +1,18 @@
-# AlphaGenome ISM Workflow
+# AlphaGenome ASO Workflow
 
-Reproducible workflow for *in silico mutagenesis* (ISM) scoring using [AlphaGenome](https://github.com/google-deepmind/alphagenome). The analysis proceeds through three steps:
+This repository provides a reproducible workflow for antisense oligonucleotide (ASO) masking experiments using [AlphaGenome](https://github.com/google-deepmind/alphagenome). The analysis proceeds through:
 
-1. Visualize gene of interest
-2. Variant generation and prediction
-3. ISM scoring and sequence logos
+1. Visualize the gene and context-specific model outputs
+2. Generate ASO-masked sequence variants across a target window
+3. Predict effects and compute ASO impact scores
+4. Visualize ASO scores as sequence logos around the target exon
 
-The `alphagenome` library code is not modified; notebooks import and use its public API. For more information, please visit the original[ AlphaGenome project site](https://github.com/google-deepmind/alphagenome/tree/main).
+The `alphagenome` library is used as-is via its public API.
 
 ---
 ## 1. Installation
 
-First, get the AlphaGenome API key from https://deepmind.google.com/science/alphagenome/
+Get an AlphaGenome API key: https://deepmind.google.com/science/alphagenome/
 
 Create and activate a Python environment (Python ≥3.10 recommended):
 
@@ -33,28 +34,24 @@ gunzip GRCh38.primary_assembly.genome.fa.gz
 cd ..
 ```
 
-Note: AlphaGenome does not support GENCODE versions higher than v46.
+Note: AlphaGenome currently supports GENCODE up to v46.
 
 ---
 ## 3. Configuration
 
-Edit parameters in `config.json` before running `combined_workflow.ipynb`:
+Edit parameters (e.g., `config_private/SMN2.json`) before running `aso.ipynb`:
 
-- **gene_symbol**: Target gene name (e.g., "SMN2")
+- **gene_symbol**: Target gene (e.g., `SMN2`)
 - **dna_api_key**: AlphaGenome API key
-- **ontology_terms**: Cell/tissue context identifiers (UBERON/CL ontology). See `results/*metadata.csv`
-- **requested_outputs**: Prediction types (e.g., ["RNA_SEQ", "SPLICE_SITE_USAGE"]). See `utils.py/save_all_metadata` for all supported output formats.
-- **exon_index**: Zero-based index of target exon
-- **flank**: Bases to include around exon for variant window (<250 recommended)
-- **strand**: Strand filter ("+", "-", or "all"; see `utils.py/filter_by_strand`)
-- **track_filter**: Substring to filter tracks (optional; polyA plus RNA-seq by default)
+- **ontology_terms**: Context identifiers (UBERON/CL ontology)
+- **requested_outputs**: Prediction types (e.g., `RNA_SEQ`, `SPLICE_SITE_USAGE`)
+- **exon_intervals**: Genomic start/end of target exon
+- **flank**: Bases around exon to include in ASO window (<250 recommended)
+- **ASO_length**: Length of the ASO masking window
+- **strand**: Track strand filter (`+`, `-`, `stranded`, `unstranded`, `all`)
+- **track_filter**: Substring to filter tracks (optional)
 
 ---
-## 4. How it works - ISM
-This section briefly explain how ISM works using AlphaGenome.
-![alt text](asset/fig1.png)
-When you provide a gene name and an exon sequence (or specify regions to be included or excluded during splicing), a complete gene sequence is retrieved from the GTF file and augmented to match one of the specified sizes: 16k, 128k, 512k, or 1M.
-![alt text](asset/fig2.png)
-Single nucleotide variants (SNVs) are generated sequentially, as illustrated in the figure. Since each nucleotide can undergo three possible mutations, the total number of SNVs is calculated as the flank length multiplied by three. The notebook utilizes the AlphaGenome API to process about 3,000 mutations, resulting in a numpy array sized (input length x flank length x 3) for each ontology identifier.
-![alt text](asset/fig3.png)
-Note that only the scores from the exon regions are used to assess variant effects. The score of each variant is subtracted from the reference score. A positive difference indicates that the mutation has increased the score (e.g., RNA-seq, splice-site usage) of that exon.
+## 4. How it works — ASO
+
+ASO experiments mask a short window (length = `ASO_length`) with `N` bases while sliding across a target region around the exon. For each masked variant, AlphaGenome predicts selected outputs (e.g., RNA-seq coverage, splice-site usage). Differences relative to the reference are aggregated into ASO impact scores and visualized as sequence logos over the window.

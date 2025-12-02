@@ -208,4 +208,5 @@ __marimo__/
 
 data
 config_private
-results
+results/*
+!results/*.csv
