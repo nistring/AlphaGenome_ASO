@@ -6,6 +6,7 @@
   "results_dir": "results",
   "data_dir": "data",
   "dna_api_key": "REPLACE_WITH_YOUR_KEY",
+  "_comment": "REPLACE_WITH_YOUR_KEY",
   "track_filter": "polyA plus RNA-seq",
   "ontology_terms": ["CL:0000127","CL:0002319","CL:0011020","CL:0000047","CL:0000679"],
   "requested_outputs": [

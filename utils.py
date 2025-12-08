@@ -49,31 +49,54 @@ def filter_by_strand(track_data, strand: str):
     return mapping.get(s, lambda: track_data)()
 
 
-def plot_all_outputs(output, transcripts, requested_outputs, cfg, resize_width=2**15, target_interval=None):
+def plot_all_outputs(output, transcripts, requested_outputs, cfg, resize_width=2**15, target_interval=None, variant=None):
     """Plot requested outputs with optional track/strand filtering."""
     for output_type in requested_outputs:
-        track_data = output.get(output_type)
-        if track_data is None:
-            continue
+        if variant:
+            ref_data = output.reference.get(output_type)
+            alt_data = output.alternate.get(output_type)
+            if ref_data is None or alt_data is None:
+                continue
+            tdata = {'REF': ref_data, 'ALT': alt_data}
+            colors = {'REF': 'dimgrey', 'ALT': 'red'}
+        else:
+            track_data = output.get(output_type)
+            if track_data is None:
+                continue
+            tdata = track_data
+            colors = None
 
+        # Apply filters
         if cfg.get('track_filter'):
-            track_data = track_data.filter_tracks(name_filter(track_data.names, cfg['track_filter']))
+            if variant:
+                tdata['REF'] = tdata['REF'].filter_tracks(name_filter(tdata['REF'].names, cfg['track_filter']))
+                tdata['ALT'] = tdata['ALT'].filter_tracks(name_filter(tdata['ALT'].names, cfg['track_filter']))
+            else:
+                tdata = tdata.filter_tracks(name_filter(tdata.names, cfg['track_filter']))
         if 'strand' in cfg:
-            track_data = filter_by_strand(track_data, cfg['strand'])
+            if variant:
+                tdata['REF'] = filter_by_strand(tdata['REF'], cfg['strand'])
+                tdata['ALT'] = filter_by_strand(tdata['ALT'], cfg['strand'])
+            else:
+                tdata = filter_by_strand(tdata, cfg['strand'])
 
-        components = [
-            plot_components.TranscriptAnnotation(transcripts),
-            plot_components.Tracks(track_data, ylabel_template='{biosample_name} ({strand})\n{name}')
-        ]
+        components = [plot_components.TranscriptAnnotation(transcripts)]
+        annotations=[plot_components.IntervalAnnotation(target_interval)]
+        if variant:
+            components.append(plot_components.OverlaidTracks(tdata=tdata, colors=colors))
+            annotations  = [plot_components.VariantAnnotation([variant], alpha=0.6), plot_components.IntervalAnnotation(target_interval)]
+        else:
+            components.append(plot_components.Tracks(tdata, ylabel_template='{biosample_name} ({strand})\n{name}'))
 
         plot_components.plot(
             components,
-            interval=track_data.interval.resize(resize_width),
+            interval=tdata.interval.resize(resize_width) if not variant else tdata['REF'].interval.resize(resize_width),
             title=f'{output_type.name}: {cfg["gene_symbol"]}',
-            annotations=[plot_components.IntervalAnnotation(target_interval)],
+            annotations=annotations,
         )
     plt.tight_layout()
     plt.show()
+    return annotations
 
 
 ############################################################
@@ -86,7 +109,9 @@ def find_exon_sequence(interval_start: int, exon_intervals):
 
 
 def enumerate_aso_variants(ref_sequence: str, start: int, end: int, aso_length: int):
-    """Generate ASO-masked variants by sliding an 'N' window."""
+    """Generate ASO-masked variants by sliding an 'N' window.
+    Ensures the sliding window stays within [start, end) bounds.
+    """
     n_block = 'N' * aso_length
     variants = [ref_sequence[:i] + n_block + ref_sequence[i + aso_length:] for i in range(start, end)]
     asos = [ref_sequence[i:i + aso_length] for i in range(start, end)]
@@ -225,7 +250,6 @@ def score_asos_and_export(
     start: int,
     end: int,
     fasta_path: str,
-    start_rel: int,
     aso_length: int,
     results_dir: str,
     config_name: str,
@@ -263,24 +287,34 @@ def score_asos_and_export(
         bot = results.sort_values(col, ascending=True).head(samples_max)
         bot = bot[bot[col] < 0]
 
+        def safe_div(a, b):
+            return a / b if b not in (0, None) else 0.0
+
         def build_df(sorted_results, invert: bool):
             scores = sorted_results[col]
-            norm_color = scores / (ref_score if invert else scores.max())
+            # Normalize colors safely
+            denom = ref_score if invert else (scores.max() if len(scores) else 1.0)
+            denom = denom if denom not in (0, None) else 1.0
+            norm_color = scores / denom
             vals = ((1 - norm_color) * 255 if not invert else (1 + norm_color) * 255).clip(1, 256)
             itemRgb = (
                 [f'255,{int(v)},{int(v)}' for v in vals]
                 if not invert else [f'{int(v)},{int(v)},255' for v in vals]
             )
-            norm_score = scores / ref_score
+            # Normalize score for label safely against ref_score
+            norm_score = scores.apply(lambda s: safe_div(s, ref_score))
+            # BED coordinates: position is 0-based relative to variant_interval.start
+            chrom_starts = variant_interval.start + sorted_results['position']
+            chrom_ends = chrom_starts + aso_length
             return pd.DataFrame({
                 'chrom': [interval.chromosome] * len(sorted_results),
-                'chromStart': variant_interval.start + start_rel + sorted_results['position'],
-                'chromEnd': variant_interval.start + start_rel + sorted_results['position'] + aso_length,
+                'chromStart': chrom_starts,
+                'chromEnd': chrom_ends,
                 'name': [f"{'top' if not invert else 'bottom'}{i+1}({norm_score.iloc[i] * 100:.2f}%)" for i in range(len(sorted_results))],
                 'score': scores,
                 'strand': interval.strand,
-                'thickStart': variant_interval.start + start_rel + sorted_results['position'],
-                'thickEnd': variant_interval.start + start_rel + sorted_results['position'] + aso_length,
+                'thickStart': chrom_starts,
+                'thickEnd': chrom_ends,
                 'itemRgb': itemRgb,
             })
 

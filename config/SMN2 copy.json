@@ -6,6 +6,7 @@
   "results_dir": "results",
   "data_dir": "data",
   "dna_api_key": "REPLACE_WITH_YOUR_KEY",
+  "_comment": "REPLACE_WITH_YOUR_KEY",
   "track_filter": "polyA plus RNA-seq",
   "ontology_terms": [
     "UBERON:0002240",

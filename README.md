@@ -43,13 +43,14 @@ Edit parameters (e.g., `config_private/SMN2.json`) before running `aso.ipynb`:
 
 - **gene_symbol**: Target gene (e.g., `SMN2`)
 - **dna_api_key**: AlphaGenome API key
-- **ontology_terms**: Context identifiers (UBERON/CL ontology)
+- **ontology_terms**: Context identifiers (UBERON/CL ontology). See `results/metadata*.csv`
 - **requested_outputs**: Prediction types (e.g., `RNA_SEQ`, `SPLICE_SITE_USAGE`)
 - **exon_intervals**: Genomic start/end of target exon
 - **flank**: Bases around exon to include in ASO window (<250 recommended)
 - **ASO_length**: Length of the ASO masking window
 - **strand**: Track strand filter (`+`, `-`, `stranded`, `unstranded`, `all`)
 - **track_filter**: Substring to filter tracks (optional)
+- **SNV**: Single nucleotide variant positions (0-based index; currently SNV is the only supported variant type). See `PCCA.json`
 
 ---
 ## 4. How it works — ASO
