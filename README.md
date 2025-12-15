@@ -50,9 +50,19 @@ Edit parameters (e.g., `config_private/SMN2.json`) before running `aso.ipynb`:
 - **ASO_length**: Length of the ASO masking window
 - **strand**: Track strand filter (`+`, `-`, `stranded`, `unstranded`, `all`)
 - **track_filter**: Substring to filter tracks (optional)
-- **SNV**: Single nucleotide variant positions (0-based index; currently SNV is the only supported variant type). See `PCCA.json`
+- **SNV**: Single nucleotide variant positions (0-based index; currently SNV is the only supported variant type).
+
+Tips:
+- Ensure `results_dir` exists or let the notebook create it; ASO outputs are saved under `results_dir/ASO/`.
+- For SNVs, set `position` relative to the resized interval start (0-based); the notebook converts to 1-based for AlphaGenome.
 
 ---
 ## 4. How it works — ASO
 
 ASO experiments mask a short window (length = `ASO_length`) with `N` bases while sliding across a target region around the exon. For each masked variant, AlphaGenome predicts selected outputs (e.g., RNA-seq coverage, splice-site usage). Differences relative to the reference are aggregated into ASO impact scores and visualized as sequence logos over the window.
+
+### Outputs
+- `${results_dir}/ASO/{config}_ASO_scores.csv`: Per-ASO scores (one row per mask position) for each requested output type.
+- `${results_dir}/ASO/{config}_ASO_{OUTPUT}.bed`: Top and bottom ASOs colored by effect size for genome browser tracks.
+- `${results_dir}/ASO/{config}_ASO_{OUTPUT}_full.bed`: Full set of ASO windows (all positions) for the output type.
+- SeqLogo plots and overlaid tracks are rendered inline in `aso.ipynb` for quick inspection.
